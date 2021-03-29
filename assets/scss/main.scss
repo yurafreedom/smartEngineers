@@ -1,0 +1,67 @@
+
+// GLOBAL STYLES
+@import "global/custom-variables";
+
+@import "global/normalize";
+@import "global/mixins";
+@import "global/forms";
+@import "global/tabs";
+@import "global/buttons";
+@import "global/fonts";
+
+// PLUGINS STYLE
+@import "plugins/fullpage";
+@import "plugins/fancybox.min";
+@import "plugins/dropdown";
+@import "plugins/swiper.min";
+
+// BLOCKS STYLE
+@import "blocks/page-header";
+@import "blocks/plugins";
+@import "blocks/popup-block";
+@import "blocks/main-block";
+@import "blocks/offer-block";
+@import "blocks/reviews-block";
+@import "blocks/overview-block";
+@import "blocks/form-block";
+@import "blocks/cookies-block";
+@import "blocks/brokers-block";
+@import "blocks/info-block";
+@import "blocks/main-blog-block";
+@import "blocks/blog-block";
+@import "blocks/main-blog-card-block";
+@import "blocks/blog-card-block";
+@import "blocks/article-block";
+@import "blocks/main-about-block";
+@import "blocks/about-block";
+@import "blocks/about-content-block";
+@import "blocks/contacts-block";
+@import "blocks/main-contacts-block";
+@import "blocks/pricing-block";
+@import "blocks/main-pricing-block";
+@import "blocks/main-create-block";
+@import "blocks/main-share-block";
+@import "blocks/main-plans-block";
+@import "blocks/main-how-block";
+@import "blocks/main-reviews-block";
+@import "blocks/page-footer";
+
+body {
+	position: relative;
+	background-color: #fff;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	
+	font-family: $font-family;
+	color: #000;
+	font-weight: 400;
+	line-height: 1.2;
+	font-size: 16px;
+	min-width: 320px;
+	margin: 0;
+}
+
+
+
+

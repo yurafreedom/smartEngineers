@@ -1,0 +1,433 @@
+@@include('template/head.html', {
+	"pagetitle": "Главная страница",
+	"bodyclass": ""
+})
+
+@@include('template/page-header.html')
+
+<div class="main-pricing-block">
+	<div class="main-pricing-block__logo-illustration">
+		<svg width="113" height="460">
+			<use xlink:href="#header_logo"></use>
+		</svg>
+	</div>
+	<div class="main-pricing-block__illustration-block">
+		<svg width="447" height="510">
+			<use xlink:href="#header_illustration"></use>
+		</svg>
+	</div>
+	<div class="container">
+		<div class="main-pricing-block__wrapper">
+			<div class="main-pricing-block__content-block">
+				<div class="main-pricing-block__title">Pricing plans</div>
+				<div class="main-pricing-block__description"><p>Our experts have developed a service that collects all offers in one place and reduces the time for searching for real estate. We care about your time</p></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="pricing-block">
+	<div class="pricing-block__logo-block">
+		<svg width="188" height="752">
+			<use xlink:href="#logo_blue"></use>
+		</svg>
+	</div>
+	<div class="container">
+
+		<form class="pricing-block__wrapper" id="pricing_form">
+
+			<div class="pricing-block__control-block">
+				<label for="plan_check" class="pricing-block__label--monthly">Monthly</label>
+				<div class="pricing-block__checkbox-block">
+					<input class="pricing-block__checkbox" id="plan_check" name="plan_check" type="checkbox" checked>
+					<label for="plan_check"></label>
+				</div>
+				<label for="plan_check"class="pricing-block__label--annually active">Annually</label>
+			</div>
+
+			<div class="tab-content">
+
+				<div class="tab-pane active" id="pricing-tab-1">
+					<div class="pricing-block__list">
+
+						<div class="pricing-block__card-block small" data-value="35">
+							<div class="pricing-block__card-overhead">
+								<span class="plans-name">Small</span>
+								<svg width="18" height="9" class="pricing-block__card-overhead-icon">
+									<use xlink:href="#card_arrow"></use>
+								</svg>
+							</div>
+							<div class="pricing-block__card-wrapper">
+								<div class="pricing-block__card-price"><span class="currency">€</span><span class="price">35</span></div>
+								<div class="pricing-block__card-billing">Billed annually</div>
+								<a href="javascript:;" class="pricing-block__card-free-block">Try now for FREE</a>
+							</div>
+							<div class="pricing-block__card-wrapper">
+								<div class="pricing-block__card-list">
+									<ul>
+										<li>2 consultant profiles</li>
+										<li>1 manager profile</li>
+									</ul>
+								</div>
+							</div>
+							<div class="pricing-block__card-bottom">
+								<div class="pricing-block__card-inner-title">Modules</div>
+								<div class="pricing-block__card-list">
+									<ul>
+										<li>Property list + details</li>
+										<li>Live chat</li>
+										<li>Manager reporting</li>
+										<li>Advanced pricing</li>
+										<li>Brikk Lead generatir</li>
+									</ul>
+								</div>
+							</div>
+							<a href="javascript:;" class="btn btn--select">
+								<svg width="16" height="16">
+									<use xlink:href="#selected"></use>
+								</svg>
+								<span class="active">Select</span>
+								<span class="disabled">Selected</span>
+							</a>
+						</div>
+
+						<div class="pricing-block__card-block medium" data-value="69">
+							<div class="pricing-block__card-overhead">
+								<span class="plans-name">Medium</span>
+								<svg width="18" height="9" class="pricing-block__card-overhead-icon">
+									<use xlink:href="#card_arrow"></use>
+								</svg>
+							</div>
+							<div class="pricing-block__card-wrapper">
+								<div class="pricing-block__card-price"><span class="currency">€</span><span class="price">69</span></div>
+								<div class="pricing-block__card-billing">Billed annually</div>
+								<a href="javascript:;" class="pricing-block__card-free-block">Try now for FREE</a>
+							</div>
+							<div class="pricing-block__card-wrapper">
+								<div class="pricing-block__card-list">
+									<ul>
+										<li>2 consultant profiles</li>
+										<li>1 manager profile</li>
+									</ul>
+								</div>
+							</div>
+							<div class="pricing-block__card-bottom">
+								<div class="pricing-block__card-inner-title">Modules</div>
+								<div class="pricing-block__card-list">
+									<ul>
+										<li>Property list + details</li>
+										<li>Live chat</li>
+										<li>Manager reporting</li>
+										<li>Advanced pricing</li>
+										<li>Brikk Lead generatir</li>
+									</ul>
+								</div>
+							</div>
+							<a href="javascript:;" class="btn btn--select">
+								<svg width="16" height="16">
+									<use xlink:href="#selected"></use>
+								</svg>
+								<span class="active">Select</span>
+								<span class="disabled">Selected</span>
+							</a>
+						</div>
+
+						<div class="pricing-block__card-block large" data-value="99">
+							<div class="pricing-block__card-overhead">
+								<span class="plans-name">Large</span>
+								<svg width="18" height="9" class="pricing-block__card-overhead-icon">
+									<use xlink:href="#card_arrow"></use>
+								</svg>
+							</div>
+							<div class="pricing-block__card-wrapper">
+								<div class="pricing-block__card-price"><span class="currency">€</span><span class="price">99</span></div>
+								<div class="pricing-block__card-billing">Billed annually</div>
+								<a href="javascript:;" class="pricing-block__card-free-block">Try now for FREE</a>
+							</div>
+							<div class="pricing-block__card-wrapper">
+								<div class="pricing-block__card-list">
+									<ul>
+										<li>2 consultant profiles</li>
+										<li>1 manager profile</li>
+									</ul>
+								</div>
+							</div>
+							<div class="pricing-block__card-bottom">
+								<div class="pricing-block__card-inner-title">Modules</div>
+								<div class="pricing-block__card-list">
+									<ul>
+										<li>Property list + details</li>
+										<li>Live chat</li>
+										<li>Manager reporting</li>
+										<li>Advanced pricing</li>
+										<li>Brikk Lead generatir</li>
+									</ul>
+								</div>
+							</div>
+							<a href="javascript:;" class="btn btn--select">
+								<svg width="16" height="16" class="selected">
+									<use xlink:href="#selected"></use>
+								</svg>
+								<span class="active">Select</span>
+								<span class="disabled">Selected</span>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="tab-pane" id="pricing-tab-2">
+					<div class="pricing-block__list">
+
+						<div class="pricing-block__card-block small" data-value="33">
+							<div class="pricing-block__card-overhead">
+								<span class="plans-name">Small</span>
+								<svg width="18" height="9" class="pricing-block__card-overhead-icon">
+									<use xlink:href="#card_arrow"></use>
+								</svg>
+							</div>
+							<div class="pricing-block__card-wrapper">
+								<div class="pricing-block__card-price"><span class="currency">€</span><span class="price">33</span></div>
+								<div class="pricing-block__card-billing">Billed annually</div>
+								<a href="javascript:;" class="pricing-block__card-free-block">Try now for FREE</a>
+								<div class="pricing-block__card-bonus">+6 FREE BRIKK LEADS total value of €50</div>
+							</div>
+							<div class="pricing-block__card-wrapper">
+								<div class="pricing-block__card-list">
+									<ul>
+										<li>2 consultant profiles</li>
+										<li>1 manager profile</li>
+									</ul>
+								</div>
+							</div>
+							<div class="pricing-block__card-bottom">
+								<div class="pricing-block__card-inner-title">Modules</div>
+								<div class="pricing-block__card-list">
+									<ul>
+										<li>Property list + details</li>
+										<li>Live chat</li>
+										<li>Manager reporting</li>
+										<li>Advanced pricing</li>
+										<li>Brikk Lead generatir</li>
+									</ul>
+								</div>
+							</div>
+							<a href="javascript:;" class="btn btn--select">
+								<svg width="16" height="16">
+									<use xlink:href="#selected"></use>
+								</svg>
+								<span class="active">Select</span>
+								<span class="disabled">Selected</span>
+							</a>
+						</div>
+
+						<div class="pricing-block__card-block medium" data-value="62">
+							<div class="pricing-block__card-overhead">
+								<span class="plans-name">Medium</span>
+								<svg width="18" height="9" class="pricing-block__card-overhead-icon">
+									<use xlink:href="#card_arrow"></use>
+								</svg>
+							</div>
+							<div class="pricing-block__card-wrapper">
+								<div class="pricing-block__card-price"><span class="currency">€</span><span class="price">62</span></div>
+								<div class="pricing-block__card-billing">Billed annually</div>
+								<a href="javascript:;" class="pricing-block__card-free-block">Try now for FREE</a>
+								<div class="pricing-block__card-bonus">+6 FREE BRIKK LEADS total value of €50</div>
+							</div>
+							<div class="pricing-block__card-wrapper">
+								<div class="pricing-block__card-list">
+									<ul>
+										<li>2 consultant profiles</li>
+										<li>1 manager profile</li>
+									</ul>
+								</div>
+							</div>
+							<div class="pricing-block__card-bottom">
+								<div class="pricing-block__card-inner-title">Modules</div>
+								<div class="pricing-block__card-list">
+									<ul>
+										<li>Property list + details</li>
+										<li>Live chat</li>
+										<li>Manager reporting</li>
+										<li>Advanced pricing</li>
+										<li>Brikk Lead generatir</li>
+									</ul>
+								</div>
+							</div>
+							<a href="javascript:;" class="btn btn--select">
+								<svg width="16" height="16">
+									<use xlink:href="#selected"></use>
+								</svg>
+								<span class="active">Select</span>
+								<span class="disabled">Selected</span>
+							</a>
+						</div>
+
+						<div class="pricing-block__card-block large" data-value="89">
+							<div class="pricing-block__card-overhead">
+								<span class="plans-name">Large</span>
+								<svg width="18" height="9" class="pricing-block__card-overhead-icon">
+									<use xlink:href="#card_arrow"></use>
+								</svg>
+							</div>
+							<div class="pricing-block__card-wrapper">
+								<div class="pricing-block__card-price"><span class="currency">€</span><span class="price">89</span></div>
+								<div class="pricing-block__card-billing">Billed annually</div>
+								<a href="javascript:;" class="pricing-block__card-free-block">Try now for FREE</a>
+								<div class="pricing-block__card-bonus">+6 FREE BRIKK LEADS total value of €50</div>
+							</div>
+							<div class="pricing-block__card-wrapper">
+								<div class="pricing-block__card-list">
+									<ul>
+										<li>2 consultant profiles</li>
+										<li>1 manager profile</li>
+									</ul>
+								</div>
+							</div>
+							<div class="pricing-block__card-bottom">
+								<div class="pricing-block__card-inner-title">Modules</div>
+								<div class="pricing-block__card-list">
+									<ul>
+										<li>Property list + details</li>
+										<li>Live chat</li>
+										<li>Manager reporting</li>
+										<li>Advanced pricing</li>
+										<li>Brikk Lead generatir</li>
+									</ul>
+								</div>
+							</div>
+							<a href="javascript:;" class="btn btn--select">
+								<svg width="16" height="16" class="selected">
+									<use xlink:href="#selected"></use>
+								</svg>
+								<span class="active">Select</span>
+								<span class="disabled">Selected</span>
+							</a>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+			<div class="pricing-block__credits-block">
+				<div class="pricing-block__credits-title">Add credits</div>
+				<div class="pricing-block__credits-list">
+
+					<label for="credits_1" class="pricing-block__credits-card-block">
+						<div class="pricing-block__credits-card-wrapper">
+							<div class="pricing-block__validate-wrapper">
+								<input type="radio" name="pricing_credits" value="150" id="credits_1" class="pricing-block__radio">
+								<label class="pricing-block__control-label" for="credits_1">
+									<div class="pricing-block__control-check">
+										<div class="pricing-block__control-check-v"></div>
+									</div>
+								</label>
+							</div>
+							<div class="pricing-block__credits-card-title">Add <span class="credits--value" data-credits="15">15</span> Credits to your account</div>
+							<div class="pricing-block__credits-card-price"><span>€10</span> per credit</div>
+						</div>
+						<div class="pricing-block__credits-card-wrapper">
+							<div class="pricing-block__credits-card-sum">€150</div>
+						</div>
+					</label>
+
+					<label for="credits_2" class="pricing-block__credits-card-block">
+						<div class="pricing-block__credits-card-wrapper">
+							<div class="pricing-block__validate-wrapper">
+								<input type="radio" name="pricing_credits" value="270" id="credits_2" class="pricing-block__radio">
+								<label class="pricing-block__control-label" for="credits_2">
+									<div class="pricing-block__control-check">
+										<div class="pricing-block__control-check-v"></div>
+									</div>
+								</label>
+							</div>
+							<div class="pricing-block__credits-card-title">Add <span class="credits--value" data-credits="30">30</span> Credits to your account</div>
+							<div class="pricing-block__credits-card-price"><span>€9</span> per credit</div>
+							<div class="pricing-block__credits-card-discount"><span>10%</span> discount</div>
+						</div>
+						<div class="pricing-block__credits-card-wrapper">
+							<div class="pricing-block__credits-card-sum">€270</div>
+						</div>
+					</label>
+
+					<label for="credits_3" class="pricing-block__credits-card-block">
+						<div class="pricing-block__credits-card-wrapper">
+							<div class="pricing-block__validate-wrapper">
+								<input type="radio" name="pricing_credits" value="480" id="credits_3" class="pricing-block__radio">
+								<label class="pricing-block__control-label" for="credits_3">
+									<div class="pricing-block__control-check">
+										<div class="pricing-block__control-check-v"></div>
+									</div>
+								</label>
+							</div>
+							<div class="pricing-block__credits-card-title">Add <span class="credits--value" data-credits="60">60</span> Credits to your account</div>
+							<div class="pricing-block__credits-card-price"><span>€8</span> per credit</div>
+							<div class="pricing-block__credits-card-discount"><span>20%</span> discount</div>
+						</div>
+						<div class="pricing-block__credits-card-wrapper">
+							<div class="pricing-block__credits-card-sum">€480</div>
+						</div>
+					</label>
+
+					<label for="credits_4" class="pricing-block__credits-card-block">
+						<div class="pricing-block__credits-card-wrapper">
+							<div class="pricing-block__validate-wrapper">
+								<input type="radio" name="pricing_credits" value="874" id="credits_4" class="pricing-block__radio">
+								<label class="pricing-block__control-label" for="credits_4">
+									<div class="pricing-block__control-check">
+										<div class="pricing-block__control-check-v"></div>
+									</div>
+								</label>
+							</div>
+							<div class="pricing-block__credits-card-title">Add <span class="credits--value" data-credits="120">120</span> Credits to your account</div>
+							<div class="pricing-block__credits-card-price"><span>€7</span> per credit</div>
+							<div class="pricing-block__credits-card-discount"><span>30%</span> discount</div>
+						</div>
+						<div class="pricing-block__credits-card-wrapper">
+							<div class="pricing-block__credits-card-sum">€874</div>
+						</div>
+					</label>
+
+				</div>
+			</div>
+
+			<div class="pricing-block__total-block">
+
+				<div class="pricing-block__total-title">Total</div>
+
+				<div class="pricing-block__total-card-block">
+					<div class="pricing-block__total-card-wrapper">
+						<div class="pricing-block__total-card-inner">
+							<p><span class="pricing--plan"></span> Billed annually <span class="euro">€</span><span class="card--price"></span> <span>+</span> Add <span class="pricing--credits"></span> Credits to your account <span class="euro">€</span><span class="credits--price"></span></p>
+						</div>
+					</div>
+					<div class="pricing-block__total-card-sum">€<span class="pricing--sum"></span></div>
+				</div>
+
+				<div class="pricing-block__total-button-wrapper">
+					<a href="javascript:;" class="btn btn--refresh">Refresh</a>
+					<a href="javascript:;" class="btn btn--pay">Pay</a>
+				</div>
+			</div>
+
+		</form>
+		<div class="pricing-block__illustration-block">
+			<svg width="1740" height="176">
+				<use xlink:href="#house_illustration"></use>
+			</svg>
+		</div>
+	</div>
+</div>
+
+
+@@include('template/page-footer.html')
+
+@@include('template/popups.html')
+@@include('template/sprite.html')
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/plugins.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+</html>

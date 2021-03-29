@@ -1,0 +1,73 @@
+.cookies-block {
+	position: fixed;
+	top: auto;
+	left: auto;
+	right: 30px;
+	bottom: 30px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 27px;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.18);
+	z-index: 100;
+	&.disabled {
+		display: none;
+	}
+	&__title {
+		display: block;
+		font-size: 20px;
+		font-weight: 600;
+		color: #354052;
+		margin-bottom: 4px;
+	}
+	&__description {
+		display: block;
+		width: 100%;
+		max-width: 300px;
+		font-size: 12px;
+		font-weight: 400;
+		color: #354052;
+		margin-bottom: 15px;
+		p {
+			margin: 0;
+		}
+	}
+	&__button-wrapper {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	&__button-wrapper .btn:not(:last-child) {
+		margin-right: 14px;
+	}
+	&__close {
+		position: absolute;
+		top: 18px;
+		right: 20px;
+		display: block;
+		width: 14px;
+		height: 14px;
+		stroke: #A6B0CF;
+		transition: all 0.5s ease-in-out;
+		&:hover {
+			stroke: #34A853;
+		}
+	}
+}
+
+@include for-size(mobile) {
+	.cookies-block {
+		right: 15px;
+		bottom: 15px;
+		width: 100%;
+		max-width: 290px;
+	}
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	.cookies-block {
+		max-width: 340px;
+	}
+}
