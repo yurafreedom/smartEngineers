@@ -8,7 +8,7 @@
 		width: 100%;
 	}
 	.main-reviews-button-prev, .main-reviews-button-next,
-	.main-video-button-prev, .main-video-button-next {
+	.video-button-prev, .video-button-next {
 		outline: 0;
 		position: absolute;
 		top: -104px;
@@ -31,7 +31,7 @@
 			transition: all 0.5s ease-in-out;
 		}
 	}
-	.main-reviews-button-prev, .main-video-button-prev {
+	.main-reviews-button-prev, .video-button-prev {
 		right: 54px;
 	}
 	&__controls-block {
@@ -85,6 +85,8 @@
 	&__card-block {
 		position: relative;
 		display: block;
+		width: 100%;
+		max-width: 550px;
 		padding-top: 30px;
 		padding-left: 30px;
 		padding-right: 30px;

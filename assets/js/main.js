@@ -203,51 +203,62 @@ $(document).off('change focusout keydown keypress input', 'input, textarea').on(
  }
 });
 
-
-
-$(document).ready(function () {
- if( $(".swiper-container").length ) {
-    var reviewsSwiper = new Swiper ('#reviews_slider', {
-      slidesPerView: 'auto',
-      speed: 1000,
-      spaceBetween: 38,
-  		navigation: {
-  			nextEl: '.main-reviews-button-next',
-  			prevEl: '.main-reviews-button-prev',
-  		},
-      breakpoints: {
-          320: {
-          	spaceBetween: 20,
-          },
-          768: {
-
-          },
+const reviewsSwiper = new Swiper('#reviews_slider', {
+  slidesPerView: 'auto',
+  speed: 1000,
+  spaceBetween: 38,
+	navigation: {
+		nextEl: '.main-reviews-button-next',
+		prevEl: '.main-reviews-button-prev',
+	},
+  breakpoints: {
+      320: {
+      	spaceBetween: 20,
       },
-    });
-    $(window).resize(function() {
-        reviewsSwiper.update(true),
-        console.log("reviewsSwiper update")
-    });
- };
+      768: {
+
+      },
+  },
 });
 
-$(document).ready(function () {
- if( $(".swiper-container").length ) {
-      var videoSwiper = new Swiper ('#video_slider', {
-        slidesPerView: 1,
-        speed: 1000,
-        spaceBetween: 40,
-        navigation: {
-          nextEl: '.main-video-button-next',
-          prevEl: '.main-video-button-prev',
-        },
-      });
-      $(window).resize(function() {
-          videoSwiper.update(true),
-          console.log("videoSwiper update")
-      })
- }
+const videoSwiper = new Swiper('#video_slider', {
+  slidesPerView: 'auto',
+  speed: 1000,
+  spaceBetween: 40,
+  navigation: {
+    nextEl: '.video-button-next',
+    prevEl: '.video-button-prev',
+  },
+  breakpoints: {
+      320: {
+        spaceBetween: 20,
+      },
+      768: {
+
+      },
+  },
 });
+
+// const videoSwiper = new Swiper('#video_slider', {
+//   slidesPerView: 'auto',
+//   speed: 1000,
+//   spaceBetween: 40,
+//   navigation: {
+//     nextEl: '.video-button-next',
+//     prevEl: '.video-button-prev',
+//   },
+// });
+
+// $('#video_slider').slick({
+//   slidesToShow: 2,
+//   slidesToScroll: 1,
+//   infinite: true,
+//   arrows: false,
+//   dots: false,
+//   fade: true,
+//   swipe: false,
+//   draggable: false
+// });
 
 $('.main-reviews-block__card-link').on('click', function() {
   $(this).addClass('active');
