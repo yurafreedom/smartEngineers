@@ -7017,6 +7017,9 @@ input[type="radio"]:checked + label .pricing-block__control-check-v {
 #reviews_slider .swiper-slide {
   width: 355px !important; }
 
+#video_slider .swiper-slide {
+  width: 355px !important; }
+
 .page-footer {
   position: relative;
   background-color: #3A78FF; }

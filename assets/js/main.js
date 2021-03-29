@@ -203,7 +203,7 @@ $(document).off('change focusout keydown keypress input', 'input, textarea').on(
  }
 });
 
-const reviewsSwiper = new Swiper('#reviews_slider', {
+var reviewsSwiper = new Swiper('#reviews_slider', {
   slidesPerView: 'auto',
   speed: 1000,
   spaceBetween: 38,
@@ -221,7 +221,7 @@ const reviewsSwiper = new Swiper('#reviews_slider', {
   },
 });
 
-const videoSwiper = new Swiper('#video_slider', {
+var videoSwiper = new Swiper('#video_slider', {
   slidesPerView: 'auto',
   speed: 1000,
   spaceBetween: 40,
