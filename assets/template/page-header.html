@@ -1,94 +1,123 @@
 <header class="page-header">
+	<div class="page-header__menu-transparent"></div>
 	<div class="container">
 		<div class="page-header__wrapper">
 
 			<div class="page-header__inner">
 				<a href="main-block.html" class="page-header__logo">
-					<svg width="220" height="38">
-						<use xlink:href="#logo"></use>
-					</svg>
+					<img class="active" src="img/Logo1_big.png" alt="">
+					<img class="disabled" src="img/logo.svg" alt="">
 				</a>
+				<div class="page-header__subtitle-block"><p>Управление и контроль строительства</p></div>
 				<a href="javascript:;" class="page-header__toggle" id="menu-toggle"><span></span></a>
 			</div>
 
 			<nav class="page-header__nav">
 				<ul>
-					<li><a href="#">Future Messages</a></li>
-					<li><a href="#">Life Story</a></li>
-					<li><a href="#">Membership</a></li>
-					<li><a href="#">Contact Us</a></li>
+					<li>
+						<a href="service-block.html" data-jq-dropdown="#jq-dropdown-1">
+							<span>Услуги</span>
+							<svg class="icon--down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451.847 451.847"><path d="M225.923 354.706c-8.098 0-16.195-3.092-22.369-9.263L9.27 151.157c-12.359-12.359-12.359-32.397 0-44.751 12.354-12.354 32.388-12.354 44.748 0l171.905 171.915 171.906-171.909c12.359-12.354 32.391-12.354 44.744 0 12.365 12.354 12.365 32.392 0 44.751L248.292 345.449c-6.177 6.172-14.274 9.257-22.369 9.257z"/></svg>
+						</a>
+						<div id="jq-dropdown-1" class="jq-dropdown jq-dropdown-tip jq-dropdown-relative jq-dropdown-anchor-right">
+							<div class="jq-dropdown-menu" data-horizontal-offset="10">
+								<a href="javascript:;">Управление строительством</a>
+								<a href="javascript:;">Технический заказчик</a>
+								<a href="javascript:;">Строительный контроль</a>
+								<a href="javascript:;">Строительный аудит</a>
+								<button type="button" class="btn btn--service">Все услуги</button>
+							</div>
+						</div>
+					</li>
+					<li><a href="price-block.html">Стоимость</a></li>
+					<li><a href="projects-block.html">Проекты</a></li>
+					<li>
+						<a href="press-block.html" data-jq-dropdown="#jq-dropdown-2">
+							<span>Пресс-центр</span>
+							<svg class="icon--down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451.847 451.847"><path d="M225.923 354.706c-8.098 0-16.195-3.092-22.369-9.263L9.27 151.157c-12.359-12.359-12.359-32.397 0-44.751 12.354-12.354 32.388-12.354 44.748 0l171.905 171.915 171.906-171.909c12.359-12.354 32.391-12.354 44.744 0 12.365 12.354 12.365 32.392 0 44.751L248.292 345.449c-6.177 6.172-14.274 9.257-22.369 9.257z"/></svg>
+						</a>
+						<div id="jq-dropdown-2" class="jq-dropdown jq-dropdown-tip jq-dropdown-relative jq-dropdown-anchor-right">
+							<div class="jq-dropdown-menu">
+								<a href="javascript:;">Новости компании</a>
+								<a href="javascript:;">Мы в СМИ</a>
+								<a href="javascript:;">Исследования</a>
+								<a href="javascript:;">Подкасты</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="group-block.html" data-jq-dropdown="#jq-dropdown-3">
+							<span>О группе</span>
+							<svg class="icon--down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451.847 451.847"><path d="M225.923 354.706c-8.098 0-16.195-3.092-22.369-9.263L9.27 151.157c-12.359-12.359-12.359-32.397 0-44.751 12.354-12.354 32.388-12.354 44.748 0l171.905 171.915 171.906-171.909c12.359-12.354 32.391-12.354 44.744 0 12.365 12.354 12.365 32.392 0 44.751L248.292 345.449c-6.177 6.172-14.274 9.257-22.369 9.257z"/></svg>
+						</a>
+						<div id="jq-dropdown-3" class="jq-dropdown jq-dropdown-tip jq-dropdown-relative jq-dropdown-anchor-right">
+							<div class="jq-dropdown-menu">
+								<a href="javascript:;">Обращение руководства</a>
+								<a href="javascript:;">Команда</a>
+								<a href="javascript:;">Заказчики</a>
+								<a href="javascript:;">Аккредитации</a>
+								<a href="javascript:;">Партнеры</a>
+								<a href="javascript:;">Отзывы</a>
+								<a href="javascript:;">Допуски и сертификаты</a>
+								<a href="javascript:;">Лаборатории и оборудование</a>
+								<a href="javascript:;">Карьера</a>
+								<a href="javascript:;">Стажировка</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="contacts-block.html">Контакты</a></li>
 				</ul>
 			</nav>
 
-			<div class="page-header__exit-block">
-				<a href="javascript:;" class="btn btn--sign">
-					<svg width="20" height="18">
-						<use xlink:href="#sign_in"></use>
-					</svg>
-					<span>Sign in</span>
-				</a>
-				<a href="javascript:;" class="btn btn--registration">Sign up</a>
+			<div class="page-header__controls-block">
+
+				<div class="page-header__search-block">
+					<a href="javascript:;" class="page-header__search-link">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M225.474 0C101.151 0 0 101.151 0 225.474c0 124.33 101.151 225.474 225.474 225.474 124.33 0 225.474-101.144 225.474-225.474C450.948 101.151 349.804 0 225.474 0zm0 409.323c-101.373 0-183.848-82.475-183.848-183.848S124.101 41.626 225.474 41.626s183.848 82.475 183.848 183.848-82.475 183.849-183.848 183.849z"/><path d="M505.902 476.472L386.574 357.144c-8.131-8.131-21.299-8.131-29.43 0-8.131 8.124-8.131 21.306 0 29.43l119.328 119.328A20.74 20.74 0 00491.187 512a20.754 20.754 0 0014.715-6.098c8.131-8.124 8.131-21.306 0-29.43z"/></svg>
+					</a>
+
+					<div class="page-header__search-inner-block">
+						<div class="page-header__search-logo-block">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M225.474 0C101.151 0 0 101.151 0 225.474c0 124.33 101.151 225.474 225.474 225.474 124.33 0 225.474-101.144 225.474-225.474C450.948 101.151 349.804 0 225.474 0zm0 409.323c-101.373 0-183.848-82.475-183.848-183.848S124.101 41.626 225.474 41.626s183.848 82.475 183.848 183.848-82.475 183.849-183.848 183.849z"/><path d="M505.902 476.472L386.574 357.144c-8.131-8.131-21.299-8.131-29.43 0-8.131 8.124-8.131 21.306 0 29.43l119.328 119.328A20.74 20.74 0 00491.187 512a20.754 20.754 0 0014.715-6.098c8.131-8.124 8.131-21.306 0-29.43z"/></svg>
+						</div>
+						<div class="page-header__search-input-wrapper">
+							<input type="text" class="page-header__input form-control" placeholder="Текст для поиска">
+						</div>
+						<button class="btn btn--search">Найти</button>
+					</div>
+				</div>
+
+				<div class="page-header__language-block">
+					<button class="btn btn--language">
+						<span class="active">Eng</span>
+						<span class="disabled">Rus</span>
+					</button>
+				</div>
+
+				<div class="page-header__contacts-block">
+					<a href="tel:+74959608445" class="page-header__phone-link">+7 (495) 960 84 45</a>
+					<button class="btn btn--feedback">Обратный звонок</button>
+				</div>
+
+				<a href="javascript:;" class="page-header__toggle" id="menu-toggle"><span></span></a>
+
 			</div>
 		</div>
 	</div>
 
 	<div class="page-header__menu" id="header-menu">
-		<a href="javascript:;" class="page-header__toggle" id="menu-toggle-active"><span></span></a>
+		<a href="javascript:;" class="page-header__toggle" data-toggle="dismiss" id="menu-toggle-active"><span></span></a>
 		<div class="page-header__menu-nav">
 			<ul>
-				<li>
-					<a href="#" data-jq-dropdown="#jq-dropdown-3">
-						<span>Start</span>
-						<svg width="10" height="6">
-							<use xlink:href="#nav_arrow"></use>
-						</svg>
-						<div class="page-header__nav-link--hover"></div>
-					</a>
-					<div id="jq-dropdown-3" class="jq-dropdown jq-dropdown-tip jq-dropdown-relative jq-dropdown-anchor-right">
-						<div class="jq-dropdown-menu">
-							<div class="jq-dropdown-wrapper">
-								<a href="javascript:;">Overview</a>
-								<a href="javascript:;">Tour</a>
-								<a href="javascript:;">CRM</a>
-								<a href="javascript:;">Sales Velocity</a>
-								<a href="javascript:;">Mobile Apps</a>
-							</div>
-							<div class="jq-dropdown-wrapper">
-								<a href="javascript:;">Overview</a>
-								<a href="javascript:;">Tour</a>
-								<a href="javascript:;">CRM</a>
-								<a href="javascript:;">Sales Velocity</a>
-								<a href="javascript:;">Mobile Apps</a>
-							</div>
-							<div class="jq-dropdown-wrapper">
-								<a href="javascript:;">Overview</a>
-								<a href="javascript:;">Tour</a>
-								<a href="javascript:;">CRM</a>
-								<a href="javascript:;">Sales Velocity</a>
-								<a href="javascript:;">Mobile Apps</a>
-							</div>
-							<div class="jq-dropdown-wrapper">
-								<a href="javascript:;">Overview</a>
-								<a href="javascript:;">Tour</a>
-								<a href="javascript:;">CRM</a>
-								<a href="javascript:;">Sales Velocity</a>
-								<a href="javascript:;">Mobile Apps</a>
-							</div>
-							<div class="jq-dropdown-wrapper">
-								<a href="javascript:;">Overview</a>
-								<a href="javascript:;">Tour</a>
-								<a href="javascript:;">CRM</a>
-								<a href="javascript:;">Sales Velocity</a>
-								<a href="javascript:;">Mobile Apps</a>
-							</div>
-						</div>
-					</div>
-				</li>
-				<li><a href="#">For brokers</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">About us</a></li>
-				<li><a href="#">Contacts</a></li>
+				<li><a href="messages-block.html">Услуги</a></li>
+				<li><a href="story-block.html">Стоимость</a></li>
+				<li><a href="membership-block.html">Проекты</a></li>
+				<li><a href="contacts-block.html">Пресс-центр</a></li>
+				<li><a href="contacts-block.html">О группе</a></li>
+				<li><a href="contacts-block.html">Контакты</a></li>
 			</ul>
+			<button class="btn btn--feedback">Обратный звонок</button>
 		</div>
 	</div>
+
 </header>
