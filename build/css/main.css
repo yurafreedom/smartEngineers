@@ -305,6 +305,10 @@ template {
   .container {
     max-width: 1246px; } }
 
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1320px; } }
+
 @media screen and (min-width: 1920px) and (max-width: 2559px) {
   .container {
     width: 100%;
@@ -2852,7 +2856,7 @@ body.scroll-top-active .page-block__navigation-block {
       content: '';
       position: absolute;
       top: 2px;
-      left: -27px;
+      left: -30px;
       width: 20px;
       height: 20px;
       background-color: #82a8b0; }
@@ -2860,12 +2864,12 @@ body.scroll-top-active .page-block__navigation-block {
       content: '+';
       position: absolute;
       top: 4px;
-      left: -21px;
+      left: -24px;
       font-size: 14px;
       color: #fff; }
   .service-block__nav-section-title.active::after {
     content: '-';
-    left: -20px; }
+    left: -23px; }
   .service-block__nav-subsection {
     display: none;
     padding-left: 20px; }

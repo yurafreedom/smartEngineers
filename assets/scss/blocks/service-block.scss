@@ -154,7 +154,7 @@
 			content: '';
 			position: absolute;
 			top: 2px;
-			left: -27px;
+			left: -30px;
 			width: 20px;
 			height: 20px;
 			background-color: #82a8b0;
@@ -163,7 +163,7 @@
 			content: '+';
 			position: absolute;
 			top: 4px;
-			left: -21px;
+			left: -24px;
 			font-size: 14px;
 			color: #fff;
 		}
@@ -171,7 +171,7 @@
 	&__nav-section-title.active {
 		&::after {
 			content: '-';
-			left: -20px;
+			left: -23px;
 		}
 	}
 	&__nav-subsection {
