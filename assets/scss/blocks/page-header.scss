@@ -64,7 +64,7 @@
 		font-family: 'Roboto', Arial, sans-serif;
 		font-weight: 400;
 		width: 100%;
-		max-width: 110px;
+		max-width: 160px;
 		font-size: 10px;
 		color: #415770;
 		text-transform: uppercase;
@@ -611,6 +611,9 @@
 		}
 		&__nav {
 			display: block;
+		}
+		&__subtitle-block {
+			max-width: 110px;
 		}
 	}
 }

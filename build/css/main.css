@@ -303,7 +303,7 @@ template {
 
 @media screen and (min-width: 1366px) {
   .container {
-    max-width: 1270px; } }
+    max-width: 1246px; } }
 
 @media screen and (min-width: 1920px) and (max-width: 2559px) {
   .container {
@@ -724,7 +724,7 @@ template {
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 400;
     width: 100%;
-    max-width: 110px;
+    max-width: 160px;
     font-size: 10px;
     color: #415770;
     text-transform: uppercase; }
@@ -1198,7 +1198,9 @@ template {
   .page-header__toggle {
     display: none; }
   .page-header__nav {
-    display: block; } }
+    display: block; }
+  .page-header__subtitle-block {
+    max-width: 110px; } }
 
 @media screen and (min-width: 1920px) and (max-width: 2559px) {
   .page-header__nav ul li a {
@@ -1805,7 +1807,7 @@ option.hidden {
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 400;
     width: 100%;
-    max-width: 110px;
+    max-width: 160px;
     font-size: 10px;
     color: #415770;
     text-transform: uppercase; }
@@ -2279,7 +2281,9 @@ option.hidden {
   .page-header__toggle {
     display: none; }
   .page-header__nav {
-    display: block; } }
+    display: block; }
+  .page-header__subtitle-block {
+    max-width: 110px; } }
 
 @media screen and (min-width: 1920px) and (max-width: 2559px) {
   .page-header__nav ul li a {
