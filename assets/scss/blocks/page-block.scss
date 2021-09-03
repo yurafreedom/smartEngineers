@@ -165,3 +165,18 @@ body.scroll-top-active .page-block__navigation-block {
 		}
 	}
 }
+
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+	.page-block {
+		&__title {
+			font-size: 40px;
+		}
+		&__breadcrumbs-block li a {
+			font-size: 16px;
+		}
+		&__navigation-option {
+			width: 70px;
+			height: 70px;
+		}
+	}
+}

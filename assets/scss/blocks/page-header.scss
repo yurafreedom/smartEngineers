@@ -64,7 +64,7 @@
 		font-family: 'Roboto', Arial, sans-serif;
 		font-weight: 400;
 		width: 100%;
-		max-width: 160px;
+		max-width: 110px;
 		font-size: 10px;
 		color: #415770;
 		text-transform: uppercase;
@@ -103,12 +103,11 @@
 	&__contacts-block {
 		display: block;
 		flex-shrink: 0;
-		margin-right: 30px;
 	}
 	&__language-block {
 		display: block;
 		width: 30px;
-		margin-right: 30px;
+		margin-right: 20px;
 	}
 	&__phone-link {
 		display: block;
@@ -579,37 +578,9 @@
 			margin-right: 20px;
 		}
 	}
-	// body.scrolled .page-header {
-	// 	transform: translateY(-100%);
-	// 	position: fixed;
-	// 	top: 0;
-	// 	left: 0;
-	// 	width: 100%;
-	// 	padding-top: 10px;
-	// 	padding-bottom: 10px;
-	// 	background-color: #3A78FF;
-	// }
-	// body.scrolled.menu-fixed .page-header {
-	// 	transition: all 0.5s ease-in-out;
-	// 	transform: translateY(0);
-	// }
 }
 
 @media screen and (min-width: 1200px) {
-	// body.scrolled .page-header {
-	// 	transform: translateY(-100%);
-	// 	transition: all 0.5s ease-in-out;
-	// 	width: 100%;
-	// 	padding-top: 10px;
-	// 	padding-bottom: 10px;
-	// 	background-color: #3A78FF;
-	// }
-	// body.scrolled.menu-fixed .page-header {
-	// 	position: fixed;
-	// 	top: 0;
-	// 	left: 0;
-	// 	transform: translateY(0);
-	// }
 	.page-header {
 		&__toggle {
 			display: block;
@@ -617,11 +588,24 @@
 	}
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1366px) {
 	.page-header {
 		.container {
-			max-width: 1470px;
+
 		}
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+	.page-header {
+		&__contacts-block {
+			margin-right: 30px;
+		}
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.page-header {
 		&__toggle {
 			display: none;
 		}
@@ -631,10 +615,23 @@
 	}
 }
 
-// @media screen and (min-width: 1200px) and (max-width: 1365px) {
-// 	.page-header {
-// 		&__subtitle-block {
-// 			display: none;
-// 		}
-// 	}
-// }
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+	.page-header {
+		&__nav ul li a {
+			font-size: 18px;
+		}
+		&__search-link {
+			width: 21px;
+			height: 21px;
+		}
+		.btn--language {
+			font-size: 18px;
+		}
+		&__phone-link {
+			font-size: 18px;
+		}
+		.btn--feedback {
+			font-size: 14px;
+		}
+	}
+}

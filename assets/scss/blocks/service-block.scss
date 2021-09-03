@@ -340,3 +340,82 @@
 		}
 	}
 }
+
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
+	.service-block {
+		&__text {
+			font-size: 20px;
+			margin-bottom: 60px;
+		}
+		&__category-card {
+			width: 22%;
+			max-width: 100%;
+			margin-bottom: 60px;
+		}
+		&__category-card-photo {
+			max-width: 100%;
+		}
+		&__category-block {
+			justify-content: center;
+		}
+		&__navigation-title {
+			font-size: 24px;
+		}
+		&__nav-section-title {
+			font-size: 30px;
+		}
+		&__nav-subsection li a {
+			font-size: 24px;
+		}
+		&__nav-subsection li {
+			margin-bottom: 30px;
+		}
+		&__nav-subsection-title.open::before {
+			top: 4px;
+			left: -33px;
+			width: 25px;
+			height: 25px;
+		}
+		&__nav-section-title::before {
+			width: 25px;
+			height: 25px;
+			top: 4px;
+			left: -33px;
+		}
+		&__nav-section-title::after {
+			font-size: 20px;
+		}
+		&__nav-section-title::after {
+			top: 7px;
+		}
+		&__nav-section-title.active::after {
+			left: -24px;
+		}
+		&__nav-subsection-title.open::after {
+			top: 3px;
+			font-size: 20px;
+		}
+		&__nav-subsection-title.open.active::after {
+			left: -24px;
+		}
+		&__nav-section-title::before {
+			top: 7px;
+		}
+		&__nav-section-title::after {
+			top: 7px;
+			left: -26px;
+		}
+		&__nav-subsection-title.open::after {
+			left: -26px;
+		}
+		&__nav-subsection-title {
+			margin-bottom: 30px;
+		}
+		.btn--consult {
+			height: 50px;
+		}
+		&__category-title {
+			font-size: 18px;
+		}
+	}
+}
