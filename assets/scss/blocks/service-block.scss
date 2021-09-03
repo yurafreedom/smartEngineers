@@ -63,11 +63,12 @@
 	&__category-title {
 		position: absolute;
 		top: 0;
-		left: 50%;
-		margin-top: 75px;
-		margin-left: -130px;
-		display: block;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		width: 100%;
+		height: 100%;
 		text-align: center;
 		font-size: 16px;
 		font-weight: 700;
@@ -99,6 +100,10 @@
 	}
 	a:not([href]):not([tabindex]) {
 		color: #59616A;
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			color: #CC6C56;
+		}
 	}
 	&__nav-subsection {
 		margin-top: 10px;
@@ -135,7 +140,7 @@
 		font-weight: 700;
 		margin-top: 10px;
 		margin-bottom: 20px;
-		transition: all 0.2s ease-in-out;
+		transition: all 0.3s ease-in-out;
 		cursor: pointer;
 		&::before {
 			content: '';
@@ -227,6 +232,43 @@
 		&__nav-subsection {
 			margin-bottom: 20px;
 		}
+		&__category-title {
+			left: 0;
+			margin-left: 0;
+		}
+		&__category-card {
+			width: 100%;
+			max-width: 260px;
+		}
+		&__category-card-photo {
+			width: 260px;
+		}
+		&__category-block {
+			justify-content: center;
+		}
+	}
+}
+
+@media screen and (min-width: 550px) and (max-width: 579px) {
+	.service-block {
+		&__category-card {
+			width: 45%;
+			&:not(:nth-child(2n)) {
+				margin-right: 30px;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 580px) and (max-width: 767px) {
+	.service-block {
+		&__category-card {
+			width: 100%;
+			max-width: 260px;
+			&:not(:nth-child(2n)) {
+				margin-right: 30px;
+			}
+		}
 	}
 }
 
@@ -244,6 +286,46 @@
 		}
 		&__category-card {
 			margin-bottom: 60px;
+		}
+		&__category-card {
+			width: 100%;
+			max-width: 260px;
+			&:not(:nth-child(3n)) {
+				margin-right: 0;
+			}
+			&:not(:nth-child(2n)) {
+				margin-right: 30px;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 870px) and (max-width: 1129px) {
+	.service-block {
+		&__category-card {
+			width: 45%;
+			max-width: 100%;
+		}
+		&__category-card-photo {
+			max-width: 100%;
+		}
+		&__category-title {
+			left: 0;
+			margin-top: 0;
+			margin-left: 0;
+		}
+	}
+}
+
+@media screen and (min-width: 1130px) and (max-width: 1199px) {
+	.service-block {
+		&__category-card {
+			&:not(:nth-child(2n)) {
+				margin-right: 0;
+			}
+			&:not(:nth-child(4n)) {
+				margin-right: 20px;
+			}
 		}
 	}
 }

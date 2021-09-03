@@ -177,7 +177,7 @@
 		position: relative;
 		display: block;
 		width: 100%;
-		max-width: 300px;
+		max-width: 280px;
 		flex-shrink: 0;
 		&:not(:nth-child(2n)) {
 			margin-bottom: 30px;
@@ -200,6 +200,13 @@
 	}
 	&__info-inner:not(:last-child) {
 		margin-right: 30px;
+	}
+	&__copyright-block {
+		display: block;
+		text-align: center;
+		font-size: 12px;
+		font-weight: 300;
+		color: #fff;
 	}
 }
 
