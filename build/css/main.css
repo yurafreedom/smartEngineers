@@ -1421,7 +1421,6 @@ option.hidden {
   outline: 0;
   display: block;
   color: #516A83;
-  text-shadow: 3px 0 24px rgba(0, 0, 0, 0.35);
   background: none;
   padding-left: 25px;
   padding-right: 25px;
@@ -2435,20 +2434,13 @@ option.hidden {
       margin-bottom: 30px; }
   .page-footer__section-block {
     position: relative;
-    display: block;
-    width: 100%; }
-  .page-footer__section-wrapper {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: row;
         flex-direction: row;
-    -ms-flex-align: start;
-        align-items: flex-start;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 100%; }
-    .page-footer__section-wrapper:not(:last-child) {
-      margin-bottom: 30px; }
   .page-footer__info-inner:not(:last-child) {
     margin-right: 30px; }
   .page-footer__copyright-block {
@@ -2486,7 +2478,10 @@ option.hidden {
       margin-bottom: 0; }
     .page-footer__section-wrapper {
       -ms-flex-wrap: wrap;
-          flex-wrap: wrap; } }
+          flex-wrap: wrap; }
+    .page-footer__section-block {
+      -ms-flex-pack: center;
+          justify-content: center; } }
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .page-footer__info-block {
@@ -2510,9 +2505,9 @@ option.hidden {
   .page-footer__social-list {
     -ms-flex-pack: center;
         justify-content: center; }
-  .page-footer__section-wrapper {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; } }
+  .page-footer__section-block {
+    -ms-flex-pack: center;
+        justify-content: center; } }
 
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
   .page-footer__info-block {
@@ -2761,7 +2756,14 @@ body.scroll-top-active .page-block__navigation-block {
   .service-block__nav-subsection li {
     margin-bottom: 10px; }
   .service-block__nav-subsection li a {
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out; }
+    .service-block__nav-subsection li a:hover {
+      color: #CC6C56; }
+  .service-block__nav-section li a {
+    transition: all 0.3s ease-in-out; }
+    .service-block__nav-section li a:hover {
+      color: #CC6C56; }
   .service-block__nav-subsection-inner {
     margin-top: 10px; }
   .service-block__nav-subsection-inner li {

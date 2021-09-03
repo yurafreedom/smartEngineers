@@ -114,6 +114,16 @@
 	}
 	&__nav-subsection li a {
 		margin-bottom: 10px;
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			color: #CC6C56;
+		}
+	}
+	&__nav-section li a {
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			color: #CC6C56;
+		}
 	}
 	&__nav-subsection-inner {
 		margin-top: 10px;
@@ -201,6 +211,7 @@
 	&__nav-section-title.disabled::after {
 		display: none;
 	}
+
 }
 
 @include for-size(mobile) {
