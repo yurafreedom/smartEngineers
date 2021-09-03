@@ -22,16 +22,14 @@
 	&__category-block {
 		display: flex;
 		flex-direction: row;
+		justify-content: space-between;
 		flex-wrap: wrap;
 		margin-bottom: 50px;
 	}
 	&__category-card {
 		display: block;
 		width: 100%;
-		max-width: 260px;
-		&:not(:nth-child(4n)) {
-			margin-right: 40px;
-		}
+		max-width: 280px;
 	}
 	&__category-card-photo-wrapper {
 		position: relative;
@@ -42,7 +40,7 @@
 		position: relative;
 		display: block;
 		width: 100%;
-		max-width: 260px;
+		max-width: 280px;
 		&::after {
 			content: '';
 			position: absolute;

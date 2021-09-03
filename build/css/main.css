@@ -2736,15 +2736,15 @@ body.scroll-top-active .page-block__navigation-block {
     display: flex;
     -ms-flex-direction: row;
         flex-direction: row;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin-bottom: 50px; }
   .service-block__category-card {
     display: block;
     width: 100%;
-    max-width: 260px; }
-    .service-block__category-card:not(:nth-child(4n)) {
-      margin-right: 40px; }
+    max-width: 280px; }
   .service-block__category-card-photo-wrapper {
     position: relative;
     display: block;
@@ -2753,7 +2753,7 @@ body.scroll-top-active .page-block__navigation-block {
     position: relative;
     display: block;
     width: 100%;
-    max-width: 260px; }
+    max-width: 280px; }
     .service-block__category-card-photo::after {
       content: '';
       position: absolute;
