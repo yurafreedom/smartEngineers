@@ -43,13 +43,9 @@
 
 @media screen and (min-width: 1366px) {
 	.container {
-		max-width: 1246px;
-	}
-}
-
-@media screen and (min-width: 1440px) {
-	.container {
-		max-width: 1320px;
+		max-width: 100%;
+		padding-left: 60px;
+		padding-right: 60px;
 	}
 }
 

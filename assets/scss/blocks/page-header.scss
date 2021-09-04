@@ -233,6 +233,10 @@
 	&__menu &__toggle span::after {
 		background-color: #fff;
 	}
+	&__menu &__toggle:hover span::before,
+	&__menu &__toggle:hover span::after {
+		background-color: #CC6C56;
+	}
 	&__menu &__toggle span {
 		&::before {
 			top: -4px;
@@ -316,7 +320,7 @@
 		transition: all 0.5s ease-in-out;
 		&:hover {
 			text-decoration: none;
-			color: #3A78FF;
+			color: #CC6C56;
 		}
 	}
 	&__menu-nav ul li a svg {

@@ -38,6 +38,7 @@ body.scroll-top-active .page-block__navigation-block {
 		transition: all 0.3s ease-in-out;
 		&:hover {
 			text-decoration: none;
+			color: #CC6C56;
 		}
 	}
 	&__breadcrumbs-block li:not(:last-child) {
@@ -48,6 +49,10 @@ body.scroll-top-active .page-block__navigation-block {
 		width: 16px;
 		height: 16px;
 		fill: #fff;
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			fill: #CC6C56;
+		}
 	}
 	&__background-block {
 		position: relative;
