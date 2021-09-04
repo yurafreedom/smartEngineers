@@ -30,7 +30,7 @@
 		display: block;
 		width: 100%;
 		max-width: 280px;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 	}
 	&__category-card-photo-wrapper {
 		position: relative;
@@ -42,7 +42,7 @@
 		display: block;
 		width: 100%;
 		max-width: 280px;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		&::after {
 			content: '';
 			position: absolute;
@@ -53,13 +53,13 @@
 			width: 100%;
 			height: 100%;
 			background-color: rgba(0,39,79,0.6);
-			transition: all 0.3s ease-in-out;
+			transition: all 0.2s ease-in-out;
 		}
 		img {
 			display: block;
 			width: 100%;
 			height: auto;
-			transition: all 0.3s ease-in-out;
+			transition: all 0.2s ease-in-out;
 		}
 	}
 	&__category-title {
@@ -75,9 +75,9 @@
 		font-size: 16px;
 		font-weight: 700;
 		color: #fff;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 	}
-	&__category-card:hover &__category-title {
+	&__category-card-photo-wrapper:hover &__category-title {
 		color: #CC6C56;
 	}
 	&__navigation-block {
@@ -106,7 +106,7 @@
 	}
 	a:not([href]):not([tabindex]) {
 		color: #59616A;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		&:hover {
 			color: #CC6C56;
 		}
@@ -120,13 +120,13 @@
 	}
 	&__nav-subsection li a {
 		margin-bottom: 10px;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		&:hover {
 			color: #CC6C56;
 		}
 	}
 	&__nav-section li a {
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		&:hover {
 			color: #CC6C56;
 		}
@@ -156,7 +156,7 @@
 		font-weight: 700;
 		margin-top: 10px;
 		margin-bottom: 20px;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		cursor: pointer;
 		&::before {
 			content: '';
@@ -340,6 +340,18 @@
 			&:not(:nth-child(4n)) {
 				margin-right: 20px;
 			}
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+	.service-block {
+		&__category-card {
+			width: 23%;
+			max-width: 100%;
+		}
+		&__category-card-photo {
+			max-width: 100%;
 		}
 	}
 }

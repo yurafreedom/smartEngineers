@@ -17,7 +17,7 @@
   padding-right: 20px;
   padding-bottom: 15px;
   
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
   &:hover {
     box-shadow: none;
@@ -47,7 +47,7 @@
   color: #D78168;
   font-weight: 700;
   font-size: 14px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   span.disabled {
     display: none;
   }
@@ -69,7 +69,7 @@
   border-radius: 22px;
   background-color: #CC6C56;
   text-transform: uppercase;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   &:hover {
     color: #fff;
     background-color: #C65740;
@@ -84,7 +84,7 @@
   height: 40px;
   color: #fff;
   text-transform: uppercase;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .btn--consult {
@@ -104,7 +104,7 @@
   border-radius: 22px;
   background-color: #CC6C56;
   text-transform: uppercase;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   &:hover {
     color: #fff;
     background-color: #C65740;
@@ -128,7 +128,7 @@
   color: #484F57;
   background-color: #fff;
   text-transform: uppercase;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   &:hover {
     color: #fff;
     background-color: #C65740;
@@ -154,10 +154,9 @@
   border-bottom-left-radius: 10px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   &:hover {
-    color: #fff;
-    background-color: #C65740;
+    color: #000;
   }
   &::before {
     content: '';
@@ -166,7 +165,7 @@
     right: -36px;
     border: 15px solid transparent;
     border-left: 20px solid #D7D7D7;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
   &::after {
     content: '';
@@ -175,10 +174,6 @@
     right: -34px;
     border: 14px solid transparent;
     border-left: 20px solid #fff;
-    transition: all 0.3s ease-in-out;
-  }
-  &:hover::after {
-    border: 14px solid transparent;
-    border-left: 20px solid #C65740;
+    transition: all 0.2s ease-in-out;
   }
 }

@@ -47,9 +47,8 @@
 		font-weight: 700;
 		color: #fff;
 		line-height: 1.2;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		margin-bottom: 15px;
-		transition: all 0.3s ease-in-out;
 		&:hover {
 			text-decoration: none;
 			color: #CC6C56;
@@ -61,7 +60,7 @@
 		font-weight: 400;
 		line-height: 1.2;
 		color: #fff;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		&:hover {
 			text-decoration: none;
 			color: #CC6C56;
@@ -98,7 +97,7 @@
 		width: 24px;
 		height: 24px;
 		fill: #fff;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		&:hover {
 			fill: #CC6C56;
 		}
@@ -148,7 +147,7 @@
 		font-weight: 300;
 		color: #fff;
 		line-height: 1.2;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		&:not(:last-child) {
 			margin-bottom: 15px;
 		}
@@ -162,7 +161,7 @@
 			width: 16px;
 			height: 16px;
 			margin-right: 10px;
-			transition: all 0.3s ease-in-out;
+			transition: all 0.2s ease-in-out;
 		}
 	}
 	&__info-link:hover svg {
@@ -244,6 +243,9 @@
 		&__section-block {
 			justify-content: center;
 		}
+		&__info-block {
+			max-width: 100%;
+		}
 	}
 }
 
@@ -257,7 +259,7 @@
 			}
 		}
 		&__info-block:not(:nth-child(3n)) {
-			margin-right: 0;
+			margin-right: 20px;
 		}
 		&__contacts-block {
 			margin-right: 0;

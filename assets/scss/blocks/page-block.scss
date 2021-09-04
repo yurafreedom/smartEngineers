@@ -35,7 +35,7 @@ body.scroll-top-active .page-block__navigation-block {
 		font-size: 12px;
 		font-weight: 300;
 		color: #fff;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		&:hover {
 			text-decoration: none;
 			color: #CC6C56;
@@ -49,7 +49,7 @@ body.scroll-top-active .page-block__navigation-block {
 		width: 16px;
 		height: 16px;
 		fill: #fff;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		&:hover {
 			fill: #CC6C56;
 		}
@@ -122,7 +122,7 @@ body.scroll-top-active .page-block__navigation-block {
 		border-radius: 50%;
 		border: 1px solid #648E93;
 		background-color: #648E93;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		cursor: pointer;
 		&:hover {
 			background-color: #fff;
@@ -132,7 +132,7 @@ body.scroll-top-active .page-block__navigation-block {
 			display: block;
 			width: 24px;
 			height: 24px;
-			transition: all 0.3s ease-in-out;
+			transition: all 0.2s ease-in-out;
 		}
 		img.disabled {
 			display: none;

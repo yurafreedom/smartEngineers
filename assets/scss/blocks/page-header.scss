@@ -38,7 +38,7 @@
 		height: 45px;
 		margin-right: 25px;
 		flex-shrink: 0;
-		transition: all 0.5s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		img {
 			display: block;
 			width: 100%;
@@ -88,13 +88,13 @@
 		display: block;
 		width: 18px;
 		height: 17px;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		svg {
 			display: block;
 			width: 100%;
 			height: auto;
 			fill: #415770;
-			transition: all 0.3s ease-in-out;
+			transition: all 0.2s ease-in-out;
 			&:hover {
 				fill: #CC6C56;
 			}
@@ -115,7 +115,7 @@
 		font-size: 16px;
 		font-weight: 700;
 		color: #415770;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		margin-bottom: 10px;
 		&:hover {
 			color: #000;
@@ -141,7 +141,7 @@
 		border-top-left-radius: 30px;
 		border-bottom-left-radius: 30px;
 		background-color: #415770;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 	}
 	&__search-inner-block.active {
 		transform: translateX(0);
@@ -161,7 +161,7 @@
 		width: 18px;
 		height: 17px;
 		margin-right: 20px;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		cursor: pointer;
 		svg {
 			display: block;
@@ -169,7 +169,7 @@
 			height: 17px;
 			flex-shrink: 0;
 			fill: #fff;
-			transition: all 0.3s ease-in-out;
+			transition: all 0.2s ease-in-out;
 		}
 	}
 	&__input {
@@ -191,7 +191,7 @@
 		flex-shrink: 0;
 		width: 20px;
 		height: 20px;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 	}
 	&__toggle span {
 		position: absolute;
@@ -201,7 +201,7 @@
 		height: 2px;
 		border-radius: 100px;
 		background-color: #000;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		&::before, &::after {
 			content: '';
 			position: absolute;
@@ -211,7 +211,7 @@
 			height: 2px;
 			border-radius: 100px;
 			background-color: #000;
-			transition: all 0.3s ease-in-out;
+			transition: all 0.2s ease-in-out;
 		}
 		&::before {
 			top: -7px;
@@ -251,7 +251,7 @@
 		display: block !important;
 		opacity: 0;
 		pointer-events: none;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 	}
 	&__nav ul li:hover &__nav-link--hover,
 	&__nav ul li:hover .jq-dropdown {
@@ -286,7 +286,7 @@
 		padding-left: 30px;
 		padding-right: 30px;
 		pointer-events: none;
-		transition: all 0.5s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		background-color: rgba(0,39,79,0.9);
 		transition: transform .2s cubic-bezier(.645,.045,.355,1);
 		z-index: 200;
@@ -317,7 +317,7 @@
 		font-size: 18px;
 		font-weight: 400;
 		color: #fff;
-		transition: all 0.5s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		&:hover {
 			text-decoration: none;
 			color: #CC6C56;
@@ -327,7 +327,7 @@
 		display: block;
 		fill: #93A7C3;
 		margin-right: 10px;
-		transition: all 0.5s ease-in-out;
+		transition: all 0.2s ease-in-out;
 	}
 	&__menu-nav ul li a:hover svg {
 		fill: #3A78FF;
@@ -348,7 +348,7 @@
 		width: 100%;
 	}
 	&__nav ul li {
-		transition: 0.5s ease-in-out;
+		transition: 0.2s ease-in-out;
 	}
 	&__nav ul li:not(:last-child) {
 		margin-right: 30px;
@@ -363,7 +363,7 @@
 		font-weight: 700;
 		line-height: 1.2;
 		color: #516A83;
-		transition: all 0.5s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		&::after {
 			content: '';
 			position: absolute;
@@ -374,7 +374,7 @@
 			width: 100%;
 			height: 5px;
 			background-color: #CC6C56;
-			transition: all 0.5s ease-in-out;
+			transition: all 0.2s ease-in-out;
 		}
 		&:hover::after {
 			opacity: 1;
@@ -394,7 +394,7 @@
 		height: 10px;
 		margin-left: 6px;
 		fill: #516A83;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 	}
 	#jq-dropdown-1.jq-dropdown .jq-dropdown-menu a:hover::after,
 	#jq-dropdown-2.jq-dropdown .jq-dropdown-menu a:hover::after,
@@ -592,14 +592,6 @@
 	}
 }
 
-@media screen and (min-width: 1366px) {
-	.page-header {
-		.container {
-
-		}
-	}
-}
-
 @media screen and (min-width: 1200px) and (max-width: 1439px) {
 	.page-header {
 		&__contacts-block {
@@ -639,6 +631,18 @@
 		}
 		.btn--feedback {
 			font-size: 14px;
+		}
+	}
+}
+
+@media screen and (min-height: 320px) and (max-height: 610px) {
+	.page-header {
+		&__menu {
+			padding-top: 250px;
+			padding-bottom: 60px;
+		}
+		&__menu-nav ul {
+			margin-bottom: 50px;
 		}
 	}
 }
