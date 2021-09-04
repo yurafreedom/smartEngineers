@@ -2552,7 +2552,11 @@ option.hidden {
       -ms-flex-pack: center;
           justify-content: center; }
     .page-footer__info-block {
-      max-width: 100%; } }
+      max-width: 100%; }
+      .page-footer__info-block:not(:last-child) {
+        margin-right: 0; }
+    .page-footer__info-block:not(:last-child) {
+      margin-right: 0; } }
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .page-footer__info-block {
