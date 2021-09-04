@@ -303,12 +303,12 @@ template {
     padding-left: 60px;
     padding-right: 60px; } }
 
-@media screen and (min-width: 1920px) and (max-width: 2559px) {
+@media screen and (min-width: 1920px) {
   .container {
     width: 100%;
-    max-width: 1440px;
-    padding-left: 15px;
-    padding-right: 15px; } }
+    max-width: 100%;
+    padding-left: 90px;
+    padding-right: 90px; } }
 
 [contenteditable] {
   outline: none !important; }
@@ -1211,7 +1211,7 @@ template {
   .page-header__subtitle-block {
     max-width: 110px; } }
 
-@media screen and (min-width: 1920px) and (max-width: 2559px) {
+@media screen and (min-width: 1640px) {
   .page-header__nav ul li a {
     font-size: 18px; }
   .page-header__search-link {
@@ -2301,7 +2301,7 @@ option.hidden {
   .page-header__subtitle-block {
     max-width: 110px; } }
 
-@media screen and (min-width: 1920px) and (max-width: 2559px) {
+@media screen and (min-width: 1640px) {
   .page-header__nav ul li a {
     font-size: 18px; }
   .page-header__search-link {
@@ -2346,8 +2346,8 @@ option.hidden {
         flex-direction: row;
     -ms-flex-align: start;
         align-items: flex-start;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
     width: 100%; }
   .page-footer__logo-block {
     display: block;
@@ -2437,8 +2437,8 @@ option.hidden {
     display: flex;
     -ms-flex-direction: row;
         flex-direction: row;
-    -ms-flex-align: center;
-        align-items: center; }
+    -ms-flex-align: start;
+        align-items: flex-start; }
     .page-footer__address-block:not(:last-child) {
       margin-bottom: 20px; }
   .page-footer__address-title {
@@ -2497,14 +2497,16 @@ option.hidden {
         flex-shrink: 0; }
     .page-footer__info-block:not(:nth-child(2n)) {
       margin-bottom: 30px; }
+    .page-footer__info-block:not(:last-child) {
+      margin-right: 20px; }
   .page-footer__section-block {
     position: relative;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: row;
         flex-direction: row;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 100%; }
@@ -2579,12 +2581,52 @@ option.hidden {
         justify-content: center; } }
 
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
+  .page-footer__section-block {
+    -ms-flex-pack: start;
+        justify-content: flex-start; }
+  .page-footer__info-block {
+    max-width: 280px; } }
+
+@media screen and (min-width: 1200px) and (max-width: 1365px) {
+  .page-footer__info-block:not(:last-child) {
+    margin-right: 50px; }
+  .page-footer__info-block {
+    max-width: 200px; } }
+
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+  .page-footer__info-block:not(:last-child) {
+    margin-right: 0; }
+  .page-footer__info-block:not(:nth-child(3n)) {
+    margin-right: 60px; }
+  .page-footer__info-block:nth-child(2) {
+    padding-left: 30px; }
+  .page-footer__info-block:nth-child(5) {
+    padding-left: 30px; }
+  .page-footer__info-block {
+    max-width: 270px; } }
+
+@media screen and (min-width: 1920px) {
+  .page-footer__info-link {
+    font-size: 16px; }
+  .page-footer__info-wrapper {
+    display: block; }
+  .page-footer__info-inner:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 15px; }
+  .page-footer__info-block {
+    max-width: 210px; }
+  .page-footer__info-block:nth-child(2) {
+    padding-left: 0; }
+  .page-footer__info-block:nth-child(5) {
+    padding-left: 0; }
+  .page-footer__info-block:not(:nth-child(3n)) {
+    margin-right: 0; }
+  .page-footer__info-block:not(:last-child) {
+    margin-right: 20px; } }
+
+@media screen and (min-width: 2560px) {
   .page-footer__info-block {
     max-width: 300px; } }
-
-@media screen and (min-width: 1920px) and (max-width: 2559px) {
-  .page-footer__info-link {
-    font-size: 16px; } }
 
 body.scroll-top-active .page-block__navigation-block {
   opacity: 1;
@@ -3027,8 +3069,8 @@ body.scroll-top-active .page-block__navigation-block {
     font-size: 20px;
     margin-bottom: 60px; }
   .service-block__category-card {
-    width: 100%;
-    max-width: 320px;
+    width: 23%;
+    max-width: 100%;
     margin-bottom: 60px; }
     .service-block__category-card:not(:nth-child(4n)) {
       margin-right: 40px; }

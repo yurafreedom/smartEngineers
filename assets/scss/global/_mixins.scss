@@ -43,11 +43,11 @@
 	}
 }
 
-@media screen and (min-width: 1920px) and (max-width: 2559px) {
+@media screen and (min-width: 1920px) {
 	.container {
 		width: 100%;
-		max-width: 1440px;
-		padding-left: 15px;
-		padding-right: 15px;
+		max-width: 100%;
+		padding-left: 90px;
+		padding-right: 90px;
 	}
 }
