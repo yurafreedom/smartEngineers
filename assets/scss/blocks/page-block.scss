@@ -183,5 +183,11 @@ body.scroll-top-active .page-block__navigation-block {
 			width: 70px;
 			height: 70px;
 		}
+		.btn--message {
+			height: 35px;
+		}
+		&__message-block {
+			top: 15px;
+		}
 	}
 }

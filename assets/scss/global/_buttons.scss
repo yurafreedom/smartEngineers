@@ -155,7 +155,7 @@
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   transition: all 0.2s ease-in-out;
-  &:hover {
+  &:hover, &:active, &:focus {
     color: #000;
   }
   &::before {
@@ -175,5 +175,21 @@
     border: 14px solid transparent;
     border-left: 20px solid #fff;
     transition: all 0.2s ease-in-out;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .btn--message {
+    height: 40px;
+    &::before {
+      border: 20px solid transparent;
+      border-left: 20px solid #D7D7D7;
+      right: -41px;
+    }
+    &::after {
+      border: 19px solid transparent;
+      border-left: 20px solid #fff;
+      right: -39px;
+    }
   }
 }
