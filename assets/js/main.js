@@ -431,3 +431,14 @@ $(".page-header__menu-transparent").on('click', function(e) {
   $('.page-header__search-inner-block').removeClass('active');
 });
 
+$('.page-header__group-option').on('click', function() {
+  $('.page-header__group-menu').slideToggle(200);
+});
+
+$('.page-header__press-option').on('click', function() {
+  $('.page-header__press-menu').slideToggle(200);
+});
+
+$('.page-header__service-option').on('click', function() {
+  $('.page-header__service-menu').slideToggle(200);
+});
