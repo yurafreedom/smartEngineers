@@ -738,7 +738,7 @@ template {
     font-weight: 300;
     width: 100%;
     max-width: 160px;
-    font-size: 8px;
+    font-size: 10px;
     color: #415770;
     text-transform: uppercase; }
     .page-header__subtitle-block p {
@@ -1890,7 +1890,7 @@ option.hidden {
     font-weight: 300;
     width: 100%;
     max-width: 160px;
-    font-size: 8px;
+    font-size: 10px;
     color: #415770;
     text-transform: uppercase; }
     .page-header__subtitle-block p {
