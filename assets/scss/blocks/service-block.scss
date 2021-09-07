@@ -101,6 +101,7 @@
 		list-style-type: none;
 	}
 	&__nav-section li a {
+		font-size: 16px;
 		color: #59616A;
 		text-decoration: none;
 	}
@@ -161,7 +162,7 @@
 		&::before {
 			content: '';
 			position: absolute;
-			top: 2px;
+			top: 0;
 			left: -30px;
 			width: 20px;
 			height: 20px;
@@ -170,7 +171,7 @@
 		&::after {
 			content: '+';
 			position: absolute;
-			top: 4px;
+			top: 2px;
 			left: -24px;
 			font-size: 14px;
 			color: #fff;

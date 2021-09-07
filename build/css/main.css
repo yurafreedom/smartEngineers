@@ -3012,6 +3012,7 @@ body.scroll-top-active .page-block__navigation-block {
   .service-block__nav-section li ul {
     list-style-type: none; }
   .service-block__nav-section li a {
+    font-size: 16px;
     color: #59616A;
     text-decoration: none; }
   .service-block a:not([href]):not([tabindex]) {
@@ -3062,7 +3063,7 @@ body.scroll-top-active .page-block__navigation-block {
     .service-block__nav-section-title::before {
       content: '';
       position: absolute;
-      top: 2px;
+      top: 0;
       left: -30px;
       width: 20px;
       height: 20px;
@@ -3070,7 +3071,7 @@ body.scroll-top-active .page-block__navigation-block {
     .service-block__nav-section-title::after {
       content: '+';
       position: absolute;
-      top: 4px;
+      top: 2px;
       left: -24px;
       font-size: 14px;
       color: #fff; }
