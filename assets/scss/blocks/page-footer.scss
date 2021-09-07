@@ -89,13 +89,13 @@
 	}
 	&__social-list li a {
 		display: block;
-		width: 24px;
-		height: 24px;
+		width: 16px;
+		height: 16px;
 	}
 	&__social-list li a svg {
 		display: block;
-		width: 24px;
-		height: 24px;
+		width: 16px;
+		height: 16px;
 		fill: #fff;
 		transition: all 0.2s ease-in-out;
 		&:hover {
@@ -128,7 +128,7 @@
 		font-size: 14px;
 		font-weight: 300;
 		line-height: 1.2;
-		color: #fff;
+		color: #C9C9C9;
 		width: 100%;
 		max-width: 300px;
 	}
@@ -145,7 +145,7 @@
 		align-items: center;
 		font-size: 14px;
 		font-weight: 300;
-		color: #fff;
+		color: #C9C9C9;
 		line-height: 1.2;
 		transition: all 0.2s ease-in-out;
 		&:not(:last-child) {

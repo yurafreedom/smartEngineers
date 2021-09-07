@@ -12,7 +12,7 @@
 	&__text {
 		display: block;
 		font-size: 14px;
-		font-weight: 400;
+		font-weight: 300;
 		color: #59616A;
 		margin-bottom: 30px;
 		p {
@@ -153,7 +153,7 @@
 		align-items: center;
 		font-size: 20px;
 		line-height: 1.15;
-		font-weight: 700;
+		font-weight: 300;
 		margin-top: 10px;
 		margin-bottom: 20px;
 		transition: all 0.2s ease-in-out;
@@ -189,6 +189,7 @@
 	&__nav-subsection-title {
 		position: relative;
 		cursor: pointer;
+		font-weight: 300;
 		&.open::before {
 			content: '';
 			position: absolute;
