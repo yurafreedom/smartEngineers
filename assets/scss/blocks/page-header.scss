@@ -3,6 +3,28 @@
 // 	pointer-events: all;
 // }
 
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #b6060c #f7f7f7;
+}
+
+::-webkit-scrollbar {
+	height: 8px;
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f7f7f7;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #516A83;
+	border-color: #f7f7f7;
+	border-style: solid;
+	border-width: 0 2px;
+}
+
+
 .page-header {
 	position: relative;
 	width: 100%;
@@ -661,6 +683,12 @@
 	.page-header {
 		&__contacts-block {
 			margin-right: 30px;
+		}
+		&__menu &__toggle span::before {
+			background-color: #000;
+		}
+		&__menu &__toggle span::after {
+			background-color: #000;
 		}
 	}
 }

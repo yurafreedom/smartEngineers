@@ -677,6 +677,23 @@ template {
   padding: 0;
   margin: 5px 0; }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #b6060c #f7f7f7; }
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px; }
+
+::-webkit-scrollbar-track {
+  background: #f7f7f7; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #516A83;
+  border-color: #f7f7f7;
+  border-style: solid;
+  border-width: 0 2px; }
+
 .page-header {
   position: relative;
   width: 100%;
@@ -1263,7 +1280,11 @@ template {
 
 @media screen and (min-width: 1200px) and (max-width: 1439px) {
   .page-header__contacts-block {
-    margin-right: 30px; } }
+    margin-right: 30px; }
+  .page-header__menu .page-header__toggle span::before {
+    background-color: #000; }
+  .page-header__menu .page-header__toggle span::after {
+    background-color: #000; } }
 
 @media screen and (min-width: 1440px) {
   .page-header__toggle {
@@ -1829,6 +1850,23 @@ option.hidden {
   padding-top: 64px;
   overflow: hidden; }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #b6060c #f7f7f7; }
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px; }
+
+::-webkit-scrollbar-track {
+  background: #f7f7f7; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #516A83;
+  border-color: #f7f7f7;
+  border-style: solid;
+  border-width: 0 2px; }
+
 .page-header {
   position: relative;
   width: 100%;
@@ -2415,7 +2453,11 @@ option.hidden {
 
 @media screen and (min-width: 1200px) and (max-width: 1439px) {
   .page-header__contacts-block {
-    margin-right: 30px; } }
+    margin-right: 30px; }
+  .page-header__menu .page-header__toggle span::before {
+    background-color: #000; }
+  .page-header__menu .page-header__toggle span::after {
+    background-color: #000; } }
 
 @media screen and (min-width: 1440px) {
   .page-header__toggle {
