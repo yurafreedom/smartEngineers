@@ -15,7 +15,7 @@ body.scroll-top-active .page-block__navigation-block {
 		flex-direction: row;
 		align-items: center;
 		width: 100%;
-		margin-bottom: 50px;
+		margin-bottom: 41px;
 	}
 	&__breadcrumbs-block li {
 		position: relative;
@@ -23,7 +23,7 @@ body.scroll-top-active .page-block__navigation-block {
 			content: '>';
 			position: absolute;
 			top: 0;
-			right: -20px;
+			right: -16px;
 			font-size: 14px;
 			font-weight: 300;
 			color: #fff;
@@ -42,7 +42,7 @@ body.scroll-top-active .page-block__navigation-block {
 		}
 	}
 	&__breadcrumbs-block li:not(:last-child) {
-		margin-right: 30px;
+		margin-right: 21px;
 	}
 	&__breadcrumbs-block li a svg {
 		display: block;
@@ -85,13 +85,13 @@ body.scroll-top-active .page-block__navigation-block {
 		top: 0;
 		left: 0;
 		width: 100%;
-		padding-top: 20px;
+		padding-top: 19px;
 		padding-bottom: 20px;
 		min-height: 100%;
 	}
 	&__title {
 		display: block;
-		font-size: 30px;
+		font-size: 41px;
 		font-weight: 700;
 		color: #fff;
 	}

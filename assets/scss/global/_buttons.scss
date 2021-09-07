@@ -66,7 +66,6 @@
   flex-shrink: 0;
   width: 180px;
   height: 35px;
-  padding-bottom: 2px;
   font-size: 12px;
   font-weight: 700;
   color: #fff;
@@ -101,13 +100,12 @@
   align-items: center;
   flex-shrink: 0;
   width: 210px;
-  height: 45px;
-  font-size: 12px;
-  font-weight: 700;
+  height: 32px;
+  font-size: 15px;
+  font-weight: 400;
   color: #fff;
   border-radius: 22px;
   background-color: #CC6C56;
-  text-transform: uppercase;
   transition: all 0.2s ease-in-out;
   &:hover {
     color: #fff;

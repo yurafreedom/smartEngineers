@@ -2,7 +2,7 @@
 	position: relative;
 	display: block;
 	background-color: #fff;
-	padding-top: 45px;
+	padding-top: 30px;
 	padding-bottom: 100px;
 	&__wrapper {
 		position: relative;
@@ -11,10 +11,10 @@
 	}
 	&__text {
 		display: block;
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: 300;
-		color: #59616A;
-		margin-bottom: 30px;
+		color: #484F57;
+		margin-bottom: 24px;
 		p {
 			margin: 0;
 		}
@@ -35,7 +35,7 @@
 	&__category-card-photo-wrapper {
 		position: relative;
 		display: block;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 	}
 	&__category-card-photo {
 		position: relative;
@@ -101,7 +101,7 @@
 		list-style-type: none;
 	}
 	&__nav-section li a {
-		font-size: 16px;
+		font-size: 20px;
 		color: #59616A;
 		text-decoration: none;
 	}
@@ -262,6 +262,9 @@
 		&__category-block {
 			justify-content: center;
 		}
+		&__nav-section li a {
+			font-size: 14px;
+		}
 	}
 }
 
@@ -322,6 +325,9 @@
 		&__category-card-photo {
 			max-width: 100%;
 		}
+		&__nav-section li a {
+			font-size: 16px;
+		}
 	}
 }
 
@@ -364,6 +370,9 @@
 		&__category-card-photo {
 			max-width: 100%;
 		}
+		&__nav-section li a {
+			font-size: 16px;
+		}
 	}
 }
 
@@ -391,7 +400,7 @@
 			font-size: 30px;
 		}
 		&__nav-subsection li a {
-			font-size: 24px;
+			font-size: 20px;
 		}
 		&__nav-subsection li {
 			margin-bottom: 30px;
@@ -425,10 +434,10 @@
 			left: -24px;
 		}
 		&__nav-section-title::before {
-			top: 7px;
+			top: 0;
 		}
 		&__nav-section-title::after {
-			top: 7px;
+			top: 0;
 			left: -26px;
 		}
 		&__nav-subsection-title.open::after {

@@ -7,8 +7,8 @@
 	position: relative;
 	width: 100%;
 	z-index: 10;
-	padding-top: 18px;
-	padding-bottom: 18px;
+	padding-top: 30px;
+	padding-bottom: 17px;
 	background-color: #fff;
 	&__menu-transparent {
 		display: none;
@@ -34,9 +34,9 @@
 	&__logo {
 		outline: 0;
 		display: block;
-		width: 189px;
+		width: 185px;
 		height: 45px;
-		margin-right: 25px;
+		margin-right: 21px;
 		flex-shrink: 0;
 		transition: all 0.2s ease-in-out;
 		img {
@@ -61,11 +61,10 @@
 	}
 	&__subtitle-block {
 		display: block;
-		font-family: 'Roboto', Arial, sans-serif;
 		font-weight: 300;
 		width: 100%;
 		max-width: 160px;
-		font-size: 10px;
+		font-size: 8px;
 		color: #415770;
 		text-transform: uppercase;
 		p {
@@ -86,8 +85,8 @@
 	}
 	&__search-link {
 		display: block;
-		width: 18px;
-		height: 17px;
+		width: 16px;
+		height: 16px;
 		transition: all 0.2s ease-in-out;
 		svg {
 			display: block;
