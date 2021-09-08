@@ -442,3 +442,7 @@ $('.page-header__press-option').on('click', function() {
 $('.page-header__service-option').on('click', function() {
   $('.page-header__service-menu').slideToggle(200);
 });
+
+$('.page-footer__title-wrapper').on('click', function() {
+  $(this).parent().find('.page-footer__control-wrapper').slideToggle(200);
+})

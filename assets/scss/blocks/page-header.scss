@@ -326,7 +326,7 @@
 		flex-direction: column;
 		justify-content: space-between;
 		width: 100%;
-		margin-bottom: 60px;
+		margin-bottom: 45px;
 	}
 	&__menu-nav ul {
 		list-style-type: none;
@@ -731,11 +731,8 @@
 @media screen and (min-height: 320px) and (max-height: 610px) {
 	.page-header {
 		&__menu {
-			padding-top: 60px;
+			padding-top: 90px;
 			padding-bottom: 60px;
-		}
-		&__menu-nav ul {
-			margin-bottom: 50px;
 		}
 	}
 }
