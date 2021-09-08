@@ -679,7 +679,7 @@ template {
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: #b6060c #f7f7f7; }
+  scrollbar-color: #516A83 #f7f7f7; }
 
 ::-webkit-scrollbar {
   height: 8px;
@@ -1850,7 +1850,7 @@ option.hidden {
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: #b6060c #f7f7f7; }
+  scrollbar-color: #516A83 #f7f7f7; }
 
 ::-webkit-scrollbar {
   height: 8px;
@@ -2740,7 +2740,9 @@ option.hidden {
     .page-footer__info-block {
       max-width: 100%; }
     .page-footer__info-block:not(:last-child) {
-      margin-bottom: 10px; } }
+      margin-bottom: 10px; }
+    .page-footer__info-title {
+      font-size: 14px; } }
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .page-footer__info-block {
