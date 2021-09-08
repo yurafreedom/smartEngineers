@@ -269,6 +269,7 @@
 		}
 		&__control-wrapper {
 			display: none;
+			padding-bottom: 20px;
 		}
 		&__info-block:not(:nth-child(2n)) {
 			margin-bottom: 0;
@@ -278,9 +279,6 @@
 		}
 		&__info-block:not(:last-child) {
 			margin-bottom: 10px;
-		}
-		&__control-wrapper {
-			padding-bottom: 20px;
 		}
 	}
 }
@@ -295,7 +293,7 @@
 			}
 		}
 		&__info-block:not(:nth-child(3n)) {
-			margin-right: 20px;
+			margin-right: 0;
 		}
 		&__contacts-block {
 			margin-right: 0;
@@ -316,7 +314,10 @@
 			justify-content: center;
 		}
 		&__section-block {
-			justify-content: center;
+			justify-content: space-between;
+		}
+		&__info-block:not(:nth-child(2n)) {
+			margin-right: 0;
 		}
 	}
 }
