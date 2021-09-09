@@ -785,6 +785,13 @@ template {
         align-items: center;
     -ms-flex-negative: 0;
         flex-shrink: 0; }
+  .page-header__controls-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-align: center;
+        align-items: center; }
   .page-header__search-block {
     position: relative;
     display: block;
@@ -2011,6 +2018,13 @@ option.hidden {
         align-items: center;
     -ms-flex-negative: 0;
         flex-shrink: 0; }
+  .page-header__controls-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-align: center;
+        align-items: center; }
   .page-header__search-block {
     position: relative;
     display: block;

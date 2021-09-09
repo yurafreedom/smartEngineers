@@ -112,6 +112,11 @@
 		align-items: center;
 		flex-shrink: 0;
 	}
+	&__controls-wrapper {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
 	&__search-block {
 		position: relative;
 		display: block;
