@@ -22,8 +22,8 @@ body.scroll-top-active .page-block__navigation-block {
 		&:not(:last-child)::after {
 			content: '>';
 			position: absolute;
-			top: 0;
-			right: -16px;
+			top: -1px;
+			right: -15px;
 			font-size: 14px;
 			font-weight: 300;
 			color: #fff;

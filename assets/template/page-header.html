@@ -1,14 +1,17 @@
 <header class="page-header">
-	<div class="page-header__menu-transparent"></div>
+	<div class="page-header__menu-transparent" id="transparent_search"></div>
+	<div class="page-header__menu-transparent" id="transparent_menu"></div>
 	<div class="container">
 		<div class="page-header__wrapper">
 
 			<div class="page-header__inner">
-				<a href="main-block.html" class="page-header__logo">
-					<img class="active" src="img/Logo1_big.png" alt="">
-					<img class="disabled" src="img/logo.svg" alt="">
-				</a>
-				<div class="page-header__subtitle-block">Управление и контроль строительства</div>
+				<div class="page-header__logo-block">
+					<a href="main-block.html" class="page-header__logo">
+						<img class="active" src="img/Logo1_big.png" alt="">
+						<img class="disabled" src="img/logo.svg" alt="">
+					</a>
+					<div class="page-header__subtitle-block">Управление и контроль строительства</div>
+				</div>
 				<a href="javascript:;" class="page-header__toggle" id="menu-toggle-mobile"><span></span></a>
 			</div>
 
@@ -74,27 +77,31 @@
 
 			<div class="page-header__controls-block">
 
-				<div class="page-header__search-block">
-					<a href="javascript:;" class="page-header__search-link">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M225.474 0C101.151 0 0 101.151 0 225.474c0 124.33 101.151 225.474 225.474 225.474 124.33 0 225.474-101.144 225.474-225.474C450.948 101.151 349.804 0 225.474 0zm0 409.323c-101.373 0-183.848-82.475-183.848-183.848S124.101 41.626 225.474 41.626s183.848 82.475 183.848 183.848-82.475 183.849-183.848 183.849z"/><path d="M505.902 476.472L386.574 357.144c-8.131-8.131-21.299-8.131-29.43 0-8.131 8.124-8.131 21.306 0 29.43l119.328 119.328A20.74 20.74 0 00491.187 512a20.754 20.754 0 0014.715-6.098c8.131-8.124 8.131-21.306 0-29.43z"/></svg>
-					</a>
-
-					<div class="page-header__search-inner-block">
-						<div class="page-header__search-logo-block">
+				<div class="page-header__controls-wrapper">
+					<div class="page-header__search-block">
+						<a href="javascript:;" class="page-header__search-link">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M225.474 0C101.151 0 0 101.151 0 225.474c0 124.33 101.151 225.474 225.474 225.474 124.33 0 225.474-101.144 225.474-225.474C450.948 101.151 349.804 0 225.474 0zm0 409.323c-101.373 0-183.848-82.475-183.848-183.848S124.101 41.626 225.474 41.626s183.848 82.475 183.848 183.848-82.475 183.849-183.848 183.849z"/><path d="M505.902 476.472L386.574 357.144c-8.131-8.131-21.299-8.131-29.43 0-8.131 8.124-8.131 21.306 0 29.43l119.328 119.328A20.74 20.74 0 00491.187 512a20.754 20.754 0 0014.715-6.098c8.131-8.124 8.131-21.306 0-29.43z"/></svg>
-						</div>
-						<div class="page-header__search-input-wrapper">
-							<input type="text" class="page-header__input form-control" placeholder="Текст для поиска">
-						</div>
-						<button class="btn btn--search">Найти</button>
-					</div>
-				</div>
+						</a>
 
-				<div class="page-header__language-block">
-					<button class="btn btn--language">
-						<span class="active">Eng</span>
-						<span class="disabled">Rus</span>
-					</button>
+						<div class="page-header__search-inner-block">
+							<div class="page-header__search-logo-block">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M225.474 0C101.151 0 0 101.151 0 225.474c0 124.33 101.151 225.474 225.474 225.474 124.33 0 225.474-101.144 225.474-225.474C450.948 101.151 349.804 0 225.474 0zm0 409.323c-101.373 0-183.848-82.475-183.848-183.848S124.101 41.626 225.474 41.626s183.848 82.475 183.848 183.848-82.475 183.849-183.848 183.849z"/><path d="M505.902 476.472L386.574 357.144c-8.131-8.131-21.299-8.131-29.43 0-8.131 8.124-8.131 21.306 0 29.43l119.328 119.328A20.74 20.74 0 00491.187 512a20.754 20.754 0 0014.715-6.098c8.131-8.124 8.131-21.306 0-29.43z"/></svg>
+							</div>
+
+							<div class="page-header__search-input-wrapper">
+								<input type="text" class="page-header__input form-control" placeholder="Текст для поиска">
+							</div>
+
+							<button class="btn btn--search">Найти</button>
+						</div>
+					</div>
+
+					<div class="page-header__language-block">
+						<button class="btn btn--language">
+							<span class="active">Eng</span>
+							<span class="disabled">Rus</span>
+						</button>
+					</div>
 				</div>
 
 				<div class="page-header__contacts-block">

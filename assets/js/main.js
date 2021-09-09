@@ -153,6 +153,7 @@ $("#menu-toggle").click(function(e) {
   e.preventDefault();
   $(this).toggleClass('active');
   $("#header-menu").toggleClass("active");
+  $('#transparent_menu').addClass('active');
 });
 
 $("#menu-toggle-mobile").click(function(e) {
@@ -164,6 +165,7 @@ $("#menu-toggle-mobile").click(function(e) {
 $("#menu-toggle-active").click(function(e) {
   e.preventDefault();
   $("#header-menu").removeClass("active");
+  $('#transparent_menu').removeClass('active');
 });
 
 // $("#profile-menu-toggle").click(function(e) {
@@ -422,27 +424,44 @@ $('.page-block__message-block').on('mouseover', function() {
 });
 
 $('.page-header__search-link').on('click', function() {
-  $('.page-header__menu-transparent').addClass('active');
+  $('#transparent_search').addClass('active');
 });
 
-$(".page-header__menu-transparent").on('click', function(e) {
+$('#transparent_search').on('click', function(e) {
   e.preventDefault();
-  $(".page-header__menu-transparent").removeClass('active');
+  $(this).removeClass('active');
   $('.page-header__search-inner-block').removeClass('active');
 });
 
+$('#transparent_menu').on('click', function(e) {
+  e.preventDefault();
+  $(this).removeClass('active');
+  $("#header-menu").removeClass("active");
+});
+
+
+// const scrollBarWidth = window.innerWidth - document.documentElement.offsetWidth;
+// document.body.style.paddingRight = '${scrollBarWidth}px';
+// $('body').toggleClass('active');
+
+
 $('.page-header__group-option').on('click', function() {
-  $('.page-header__group-menu').slideToggle(200);
+  $('.page-header__group-menu').slideToggle(300);
+  $(this).find('.icon--down').toggleClass('active');
 });
 
 $('.page-header__press-option').on('click', function() {
-  $('.page-header__press-menu').slideToggle(200);
+  $('.page-header__press-menu').slideToggle(300);
+  $(this).find('.icon--down').toggleClass('active');
 });
 
 $('.page-header__service-option').on('click', function() {
-  $('.page-header__service-menu').slideToggle(200);
+  $('.page-header__service-menu').slideToggle(300);
+  $(this).find('.icon--down').toggleClass('active');
 });
 
 $('.page-footer__title-wrapper').on('click', function() {
   $(this).parent().find('.page-footer__control-wrapper').slideToggle(200);
 })
+
+

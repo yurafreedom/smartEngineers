@@ -293,6 +293,12 @@
 		&__info-title {
 			font-size: 14px;
 		}
+		&__info-inner {
+			&:not(:last-child) {
+				margin-right: 0;
+				margin-bottom: 15px;
+			}
+		}
 	}
 }
 
@@ -332,6 +338,9 @@
 		&__info-block:not(:nth-child(2n)) {
 			margin-right: 0;
 		}
+		&__title-wrapper::after {
+			display: none;
+		}
 	}
 }
 
@@ -342,6 +351,14 @@
 		}
 		&__info-block {
 			max-width: 280px;
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.page-footer {
+		&__title-wrapper::after {
+			display: none;
 		}
 	}
 }
