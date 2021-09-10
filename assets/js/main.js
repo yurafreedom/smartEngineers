@@ -462,6 +462,7 @@ $('.page-header__service-option').on('click', function() {
 
 $('.page-footer__title-wrapper').on('click', function() {
   $(this).parent().find('.page-footer__control-wrapper').slideToggle(200);
+  $(this).find('.icon--down').toggleClass('active');
 })
 
 

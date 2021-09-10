@@ -98,7 +98,7 @@ body.scroll-top-active .page-block__navigation-block {
 	&__navigation-block {
 		position: absolute;
 		top: 20px;
-		right: 5px;
+		right: 8px;
 		z-index: 100;
 		&.fixed {
 			position: fixed;
@@ -167,27 +167,6 @@ body.scroll-top-active .page-block__navigation-block {
 	.page-block {
 		&__navigation-block {
 			display: none;
-		}
-	}
-}
-
-@media screen and (min-width: 1920px) and (max-width: 2559px) {
-	.page-block {
-		&__title {
-			font-size: 40px;
-		}
-		&__breadcrumbs-block li a {
-			font-size: 16px;
-		}
-		&__navigation-option {
-			width: 70px;
-			height: 70px;
-		}
-		.btn--message {
-			height: 35px;
-		}
-		&__message-block {
-			top: 15px;
 		}
 	}
 }

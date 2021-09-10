@@ -174,8 +174,12 @@
 			width: 16px;
 			height: 16px;
 			margin-right: 10px;
-			transition: all 0.2s ease-in-out;
+			transform: rotate(0deg);
+			transition: all 0.3s ease-in-out;
 		}
+	}
+	.icon--down.active {
+		transform: rotate(180deg);
 	}
 	&__info-link:hover svg {
 		fill: rgb(204, 108, 86);
@@ -299,6 +303,9 @@
 				margin-bottom: 15px;
 			}
 		}
+		&__info-wrapper {
+			display: block;
+		}
 	}
 }
 
@@ -347,7 +354,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
 	.page-footer {
 		&__section-block {
-			justify-content: flex-start;
+			justify-content: space-between;
 		}
 		&__info-block {
 			max-width: 280px;
