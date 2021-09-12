@@ -22,7 +22,7 @@ body.scroll-top-active .page-block__navigation-block {
 		&:not(:last-child)::after {
 			content: '>';
 			position: absolute;
-			top: -1px;
+			top: 0;
 			right: -15px;
 			font-size: 14px;
 			font-weight: 300;
@@ -43,6 +43,9 @@ body.scroll-top-active .page-block__navigation-block {
 	}
 	&__breadcrumbs-block li:not(:last-child) {
 		margin-right: 21px;
+	}
+	&__breadcrumbs-block li a span {
+		padding-top: 1px;
 	}
 	&__breadcrumbs-block li a svg {
 		display: block;
@@ -98,7 +101,7 @@ body.scroll-top-active .page-block__navigation-block {
 	&__navigation-block {
 		position: absolute;
 		top: 20px;
-		right: 8px;
+		right: 5px;
 		z-index: 100;
 		&.fixed {
 			position: fixed;

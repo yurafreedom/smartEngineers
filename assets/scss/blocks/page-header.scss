@@ -36,10 +36,10 @@
 	&__menu-transparent {
 		display: none;
 		position: fixed;
-		top: 120px;
+		top: 0;
 		width: 100%;
 		height: 100%;
-		z-index: 90;
+		z-index: 10;
 		cursor: pointer;
 		&.active {
 			display: block;
@@ -181,6 +181,7 @@
 		border-bottom-left-radius: 30px;
 		background-color: #415770;
 		transition: all 0.2s ease-in-out;
+		z-index: 100;
 	}
 	&__search-inner-block.active {
 		transform: translateX(0);
@@ -658,9 +659,6 @@
 			height: 30px;
 			font-size: 12px;
 		}
-		&__menu-transparent {
-			top: 80px;
-		}
 		&__search-logo-block {
 			margin-right: 10px;
 		}
@@ -669,6 +667,50 @@
 			flex-direction: row;
 			align-items: center;
 			order: 2;
+		}
+		&__menu-nav ul, &__menu-subnav {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: block;
+			width: 100%;
+		}
+		&__menu-nav ul li:not(:last-child) {
+			margin-bottom: 25px;
+		}
+		&__menu-nav ul li a {
+			position: relative;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			font-size: 16px;
+			font-weight: 400;
+			color: #000;
+			text-decoration: none;
+		}
+		&__menu-nav ul li a svg {
+			display: block;
+			width: 12px;
+			height: 12px;
+			fill: #000;
+			transition: all 0.3s ease-in-out;
+		}
+		&__menu-nav ul li a .glyphicon {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+		&__menu-nav ul &__menu-subnav {
+			display: none;
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		&__menu-nav ul &__menu-subnav li a {
+			display: block;
+			font-size: 14px;
+			font-weight: 300;
+			color: #000;
 		}
 	}
 }
@@ -726,7 +768,7 @@
 			height: 50px;
 		}
 		&__search-inner-block {
-			right: -310px;
+			right: -270px;
 			z-index: 20;
 		}
 	}
@@ -883,41 +925,13 @@
 @media screen and (min-width: 2520px) {
 	.page-header {
 		&__nav ul li:not(:last-child) {
-			margin-right: 70px;
+			margin-right: 120px;
 		}
 		&__search-block {
-			margin-right: 40px;
+			margin-right: 80px;
 		}
 		&__language-block {
-			margin-right: 40px;
-		}
-	}
-}
-
-@media screen and (min-width: 2620px) {
-	.page-header {
-		&__nav ul li:not(:last-child) {
-			margin-right: 70px;
-		}
-		&__search-block {
-			margin-right: 40px;
-		}
-		&__language-block {
-			margin-right: 40px;
-		}
-	}
-}
-
-@media screen and (min-width: 2720px) {
-	.page-header {
-		&__nav ul li:not(:last-child) {
-			margin-right: 70px;
-		}
-		&__search-block {
-			margin-right: 40px;
-		}
-		&__language-block {
-			margin-right: 40px;
+			margin-right: 80px;
 		}
 	}
 }

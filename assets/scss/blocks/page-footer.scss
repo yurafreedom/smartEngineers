@@ -170,13 +170,16 @@
 		}
 		svg {
 			display: block;
-			fill: #fff;
+			fill: #C9C9C9;
 			width: 16px;
 			height: 16px;
 			margin-right: 10px;
 			transform: rotate(0deg);
 			transition: all 0.3s ease-in-out;
 		}
+	}
+	&__info-link span {
+		padding-top: 1px;
 	}
 	.icon--down.active {
 		transform: rotate(180deg);
@@ -228,6 +231,10 @@
 		svg {
 			display: none;
 		}
+	}
+	&__control-wrapper {
+		display: flex;
+		flex-direction: row;
 	}
 }
 
@@ -429,6 +436,12 @@
 		}
 		&__info-block:not(:last-child) {
 			margin-right: 20px;
+		}
+		&__section-block {
+			justify-content: space-between;
+		}
+		&__control-wrapper {
+			display: block;
 		}
 	}
 }

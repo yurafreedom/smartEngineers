@@ -444,25 +444,18 @@ $('#transparent_menu').on('click', function(e) {
 // document.body.style.paddingRight = '${scrollBarWidth}px';
 // $('body').toggleClass('active');
 
-
-$('.page-header__group-option').on('click', function() {
-  $('.page-header__group-menu').slideToggle(300);
-  $(this).find('.icon--down').toggleClass('active');
-});
-
-$('.page-header__press-option').on('click', function() {
-  $('.page-header__press-menu').slideToggle(300);
-  $(this).find('.icon--down').toggleClass('active');
-});
-
-$('.page-header__service-option').on('click', function() {
-  $('.page-header__service-menu').slideToggle(300);
-  $(this).find('.icon--down').toggleClass('active');
-});
-
 $('.page-footer__title-wrapper').on('click', function() {
-  $(this).parent().find('.page-footer__control-wrapper').slideToggle(200);
+  $(this).parent().find('.page-footer__control-wrapper').slideToggle(600);
   $(this).find('.icon--down').toggleClass('active');
 })
 
+$('.page-header__menu-nav ul .list-product-cat').click(function(e) {
+  e.preventDefault();
+  $(this).find('.icon--down').toggleClass('active');
+  $('.page-header__menu-nav ul .page-header__menu-subnav').slideUp(), $(this).next().is(":visible") || $(this).next().slideDown(),
+  e.stopPropagation();
+
+  var span = $(this).find('.glyphicon');
+  span.toggleClass('glyphicon-menu-up glyphicon-menu-down');
+});
 

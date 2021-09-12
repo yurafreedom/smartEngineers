@@ -233,14 +233,14 @@ option.hidden {
 
 #jq-dropdown-1.jq-dropdown {
   top: 60px !important;
-  left: 0 !important;
-  margin-left: -91px;
+  left: auto !important;
+  margin-left: -90px;
 }
 
 #jq-dropdown-2.jq-dropdown {
   top: 60px !important;
-  left: 0 !important;
-  margin-left: 245px;
+  left: auto !important;
+  margin-left: -38px;
 }
 
 #jq-dropdown-3.jq-dropdown {
@@ -303,14 +303,56 @@ option.hidden {
   border-bottom: 20px solid #000;
 }
 
-@media screen and (min-width: 1920px) {
-  #jq-dropdown-1.jq-dropdown {
-    margin-left: -86px;
-  }
-  #jq-dropdown-2.jq-dropdown {
-    margin-left: 290px;
-  }
+@media screen and (min-width: 1640px) {
   #jq-dropdown-3.jq-dropdown {
-    right: 36px !important;
+    right: 22px !important;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  #jq-dropdown-3.jq-dropdown {
+    right: 32px !important;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  #jq-dropdown-3.jq-dropdown {
+    right: 42px !important;
+  }
+}
+
+@media screen and (min-width: 2020px) {
+  #jq-dropdown-3.jq-dropdown {
+    right: 52px !important;
+  }
+}
+
+@media screen and (min-width: 2120px) {
+  #jq-dropdown-3.jq-dropdown {
+    right: 62px !important;
+  }
+}
+
+@media screen and (min-width: 2220px) {
+  #jq-dropdown-3.jq-dropdown {
+    right: 72px !important;
+  }
+}
+
+@media screen and (min-width: 2320px) {
+  #jq-dropdown-3.jq-dropdown {
+    right: 82px !important;
+  }
+}
+
+@media screen and (min-width: 2420px) {
+  #jq-dropdown-3.jq-dropdown {
+    right: 92px !important;
+  }
+}
+
+@media screen and (min-width: 2520px) {
+  #jq-dropdown-3.jq-dropdown {
+    right: 102px !important;
   }
 }
