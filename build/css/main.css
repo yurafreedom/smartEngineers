@@ -726,7 +726,7 @@ template {
     outline: 0;
     display: block;
     width: 185px;
-    height: 45px;
+    height: 43px;
     margin-right: 21px;
     -ms-flex-negative: 0;
         flex-shrink: 0;
@@ -1031,7 +1031,7 @@ template {
       height: 1px;
       background-color: rgba(0, 0, 0, 0.1); }
   .page-header__menu-nav ul li:not(:last-child) {
-    margin-bottom: 45px; }
+    margin-bottom: 30px; }
   .page-header__menu-inner {
     position: relative;
     display: -ms-flexbox;
@@ -1173,8 +1173,7 @@ template {
       display: none; }
     .page-header__menu-nav ul li a {
       position: relative;
-      font-size: 16px;
-      padding-top: 4px; }
+      font-size: 16px; }
     .page-header__menu-nav ul li:last-child a::after {
       display: none; }
     .page-header__toggle {
@@ -1228,7 +1227,7 @@ template {
     .page-header__menu-nav ul li a {
       color: #000; }
     .page-header__menu-nav ul li:not(:last-child) {
-      margin-bottom: 25px; }
+      margin-bottom: 30px; }
     .page-header__menu .page-header__toggle span::before,
     .page-header__menu .page-header__toggle span::after {
       background-color: #000; }
@@ -1301,8 +1300,6 @@ template {
       padding: 0;
       width: 100%;
       display: none; }
-    .page-header__menu-nav ul li:not(:last-child) {
-      margin-bottom: 25px; }
     .page-header__menu-nav ul li a {
       position: relative;
       display: -ms-flexbox;
@@ -1313,11 +1310,14 @@ template {
           justify-content: space-between;
       -ms-flex-align: center;
           align-items: center;
+      padding-bottom: 4px;
       font-size: 16px;
       font-weight: 400;
       color: #000;
       text-decoration: none; }
     .page-header__menu-nav ul li a svg {
+      position: relative;
+      top: 2px;
       display: block;
       width: 12px;
       height: 12px;
@@ -2095,7 +2095,7 @@ option.hidden {
     outline: 0;
     display: block;
     width: 185px;
-    height: 45px;
+    height: 43px;
     margin-right: 21px;
     -ms-flex-negative: 0;
         flex-shrink: 0;
@@ -2400,7 +2400,7 @@ option.hidden {
       height: 1px;
       background-color: rgba(0, 0, 0, 0.1); }
   .page-header__menu-nav ul li:not(:last-child) {
-    margin-bottom: 45px; }
+    margin-bottom: 30px; }
   .page-header__menu-inner {
     position: relative;
     display: -ms-flexbox;
@@ -2542,8 +2542,7 @@ option.hidden {
       display: none; }
     .page-header__menu-nav ul li a {
       position: relative;
-      font-size: 16px;
-      padding-top: 4px; }
+      font-size: 16px; }
     .page-header__menu-nav ul li:last-child a::after {
       display: none; }
     .page-header__toggle {
@@ -2597,7 +2596,7 @@ option.hidden {
     .page-header__menu-nav ul li a {
       color: #000; }
     .page-header__menu-nav ul li:not(:last-child) {
-      margin-bottom: 25px; }
+      margin-bottom: 30px; }
     .page-header__menu .page-header__toggle span::before,
     .page-header__menu .page-header__toggle span::after {
       background-color: #000; }
@@ -2670,8 +2669,6 @@ option.hidden {
       padding: 0;
       width: 100%;
       display: none; }
-    .page-header__menu-nav ul li:not(:last-child) {
-      margin-bottom: 25px; }
     .page-header__menu-nav ul li a {
       position: relative;
       display: -ms-flexbox;
@@ -2682,11 +2679,14 @@ option.hidden {
           justify-content: space-between;
       -ms-flex-align: center;
           align-items: center;
+      padding-bottom: 4px;
       font-size: 16px;
       font-weight: 400;
       color: #000;
       text-decoration: none; }
     .page-header__menu-nav ul li a svg {
+      position: relative;
+      top: 2px;
       display: block;
       width: 12px;
       height: 12px;

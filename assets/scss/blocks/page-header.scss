@@ -65,7 +65,7 @@
 		outline: 0;
 		display: block;
 		width: 185px;
-		height: 45px;
+		height: 43px;
 		margin-right: 21px;
 		flex-shrink: 0;
 		transition: all 0.2s ease-in-out;
@@ -371,7 +371,7 @@
 		}
 	}
 	&__menu-nav ul li:not(:last-child) {
-		margin-bottom: 45px;
+		margin-bottom: 30px;
 	}
 	&__menu-inner {
 		position: relative;
@@ -525,7 +525,6 @@
 		&__menu-nav ul li a {
 			position: relative;
 			font-size: 16px;
-			padding-top: 4px;
 		}
 		&__menu-nav ul li:last-child a::after {
 			display: none;
@@ -591,7 +590,7 @@
 			color: #000;
 		}
 		&__menu-nav ul li:not(:last-child) {
-			margin-bottom: 25px;
+			margin-bottom: 30px;
 		}
 		&__menu &__toggle span::before, 
 		&__menu &__toggle span::after {
@@ -667,21 +666,21 @@
 			width: 100%;
 			display: none;
 		}
-		&__menu-nav ul li:not(:last-child) {
-			margin-bottom: 25px;
-		}
 		&__menu-nav ul li a {
 			position: relative;
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: center;
+			padding-bottom: 4px;
 			font-size: 16px;
 			font-weight: 400;
 			color: #000;
 			text-decoration: none;
 		}
 		&__menu-nav ul li a svg {
+			position: relative;
+			top: 2px;
 			display: block;
 			width: 12px;
 			height: 12px;
