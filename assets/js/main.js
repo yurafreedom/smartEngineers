@@ -460,4 +460,6 @@ $('.page-header__menu-nav ul .list-product-cat').click(function(e) {
 });
 
 
-
+$('#nav-tab-2').on('click', function() {
+  $('.icon--down').removeClass('active');
+});

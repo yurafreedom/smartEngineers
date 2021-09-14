@@ -1196,7 +1196,7 @@ template {
         display: none; }
     .page-header__inner {
       margin-bottom: 0;
-      padding-top: 5px; }
+      padding-top: 10px; }
     .page-header__subtitle-block {
       display: none; }
     .page-header__controls-block {
@@ -2565,7 +2565,7 @@ option.hidden {
         display: none; }
     .page-header__inner {
       margin-bottom: 0;
-      padding-top: 5px; }
+      padding-top: 10px; }
     .page-header__subtitle-block {
       display: none; }
     .page-header__controls-block {
@@ -2946,6 +2946,11 @@ option.hidden {
     display: flex;
     -ms-flex-direction: column;
         flex-direction: column; }
+  .page-footer__info-inner-wrapper {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 130px; }
   .page-footer__title-wrapper {
     position: relative;
     display: block;
