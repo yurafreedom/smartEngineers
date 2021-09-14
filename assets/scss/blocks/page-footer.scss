@@ -432,12 +432,6 @@
 		&__info-wrapper {
 			display: block;
 		}
-		&__info-inner {
-			&:not(:last-child) {
-				margin-right: 0;
-				margin-bottom: 15px;
-			}
-		}
 		&__info-block {
 			max-width: 210px;
 		}
@@ -458,6 +452,11 @@
 		}
 		&__control-wrapper {
 			display: block;
+		}
+		&__info-inner-wrapper {
+			&:not(:last-child) {
+				margin-bottom: 15px;
+			}
 		}
 	}
 }

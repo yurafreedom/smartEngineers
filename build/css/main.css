@@ -3213,9 +3213,6 @@ option.hidden {
     font-size: 16px; }
   .page-footer__info-wrapper {
     display: block; }
-  .page-footer__info-inner:not(:last-child) {
-    margin-right: 0;
-    margin-bottom: 15px; }
   .page-footer__info-block {
     max-width: 210px; }
   .page-footer__info-block:nth-child(2) {
@@ -3230,7 +3227,9 @@ option.hidden {
     -ms-flex-pack: justify;
         justify-content: space-between; }
   .page-footer__control-wrapper {
-    display: block; } }
+    display: block; }
+  .page-footer__info-inner-wrapper:not(:last-child) {
+    margin-bottom: 15px; } }
 
 @media screen and (min-width: 2560px) {
   .page-footer__info-block {
