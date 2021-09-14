@@ -324,6 +324,11 @@
 		&__info-wrapper {
 			display: block;
 		}
+		&__info-inner-wrapper {
+			&:not(:last-child) {
+				margin-bottom: 15px;
+			}
+		}
 	}
 }
 

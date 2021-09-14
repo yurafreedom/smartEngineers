@@ -57,6 +57,10 @@ body.scroll-top-active .page-block__navigation-block {
 			fill: #CC6C56;
 		}
 	}
+	&__breadcrumbs-block li a svg.icon--home {
+		position: relative;
+		top: -1px;
+	}
 	&__background-block {
 		position: relative;
 		display: block;
