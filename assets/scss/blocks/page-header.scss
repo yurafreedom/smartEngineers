@@ -586,6 +586,9 @@
 		&__menu {
 			background-color: #fff;
 		}
+		&__menu-nav li.open .list-product-cat .icon--down {
+			transform: rotate(180deg);
+		}
 		&__menu-nav ul li a {
 			color: #000;
 		}

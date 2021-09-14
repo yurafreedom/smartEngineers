@@ -1224,6 +1224,9 @@ template {
       margin-right: 20px; }
     .page-header__menu {
       background-color: #fff; }
+    .page-header__menu-nav li.open .list-product-cat .icon--down {
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg); }
     .page-header__menu-nav ul li a {
       color: #000; }
     .page-header__menu-nav ul li:not(:last-child) {
@@ -2593,6 +2596,9 @@ option.hidden {
       margin-right: 20px; }
     .page-header__menu {
       background-color: #fff; }
+    .page-header__menu-nav li.open .list-product-cat .icon--down {
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg); }
     .page-header__menu-nav ul li a {
       color: #000; }
     .page-header__menu-nav ul li:not(:last-child) {
