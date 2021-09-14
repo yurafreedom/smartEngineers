@@ -101,9 +101,13 @@
 		list-style-type: none;
 	}
 	&__nav-section li a {
-		font-size: 20px;
+		font-size: 16px;
 		color: #59616A;
 		text-decoration: none;
+		transition: all 0.2s ease-in-out;
+		&:hover {
+			color: #CC6C56;
+		}
 	}
 	a:not([href]):not([tabindex]) {
 		color: #59616A;
@@ -121,12 +125,6 @@
 	}
 	&__nav-subsection li a {
 		margin-bottom: 10px;
-		transition: all 0.2s ease-in-out;
-		&:hover {
-			color: #CC6C56;
-		}
-	}
-	&__nav-section li a {
 		transition: all 0.2s ease-in-out;
 		&:hover {
 			color: #CC6C56;
@@ -162,7 +160,7 @@
 		&::before {
 			content: '';
 			position: absolute;
-			top: 2px;
+			top: 0;
 			left: -27px;
 			width: 20px;
 			height: 20px;
@@ -319,9 +317,6 @@
 		&__category-card-photo {
 			max-width: 100%;
 		}
-		&__nav-section li a {
-			font-size: 16px;
-		}
 	}
 }
 
@@ -363,9 +358,6 @@
 		}
 		&__category-card-photo {
 			max-width: 100%;
-		}
-		&__nav-section li a {
-			font-size: 16px;
 		}
 	}
 }

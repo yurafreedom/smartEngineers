@@ -383,7 +383,10 @@
 		margin-bottom: 30px;
 	}
 	&__menu-nav ul li a {
-		display: block;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
 		font-size: 18px;
 		font-weight: 400;
 		color: #000;
@@ -412,42 +415,24 @@
 	&__menu-nav ul li a:hover svg {
 		fill: #3A78FF;
 	}
-	&__service-menu, &__press-menu, &__group-menu {
+	&__menu-nav ul li a .glyphicon {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	&__menu-nav ul &__menu-subnav {
 		display: none;
-		transition: all 0.3s ease-in-out;
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
-	&__service-menu, &__press-menu, &__group-menu {
-		padding-bottom: 15px;
-	}
-	&__menu-nav &__service-menu ul li::after {
-		display: none;
-	}
-	&__menu-nav &__service-menu ul li:not(:last-child) {
-		margin-bottom: 20px;
-	}
-	&__menu-nav &__service-menu ul li a {
+	&__menu-nav ul &__menu-subnav li a {
+		display: block;
 		font-size: 14px;
 		font-weight: 300;
+		color: #000;
 	}
-	&__menu-nav &__press-menu ul li::after {
+	&__menu-subnav li:last-child::after {
 		display: none;
-	}
-	&__menu-nav &__press-menu ul li:not(:last-child) {
-		margin-bottom: 20px;
-	}
-	&__menu-nav &__press-menu ul li a {
-		font-size: 14px;
-		font-weight: 300;
-	}
-	&__menu-nav &__group-menu ul li::after {
-		display: none;
-	}
-	&__menu-nav &__group-menu ul li:not(:last-child) {
-		margin-bottom: 20px;
-	}
-	&__menu-nav &__group-menu ul li a {
-		font-size: 14px;
-		font-weight: 300;
 	}
 	&__nav {
 		position: relative;
@@ -540,6 +525,7 @@
 		&__menu-nav ul li a {
 			position: relative;
 			font-size: 16px;
+			padding-top: 4px;
 		}
 		&__menu-nav ul li:last-child a::after {
 			display: none;
@@ -668,12 +654,18 @@
 			align-items: center;
 			order: 2;
 		}
-		&__menu-nav ul, &__menu-subnav {
+		&__menu-nav ul {
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
-			display: block;
 			width: 100%;
+		}
+		&__menu-subnav {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			display: none;
 		}
 		&__menu-nav ul li:not(:last-child) {
 			margin-bottom: 25px;
@@ -711,6 +703,9 @@
 			font-size: 14px;
 			font-weight: 300;
 			color: #000;
+		}
+		&__menu-subnav li:last-child::after {
+			display: none;
 		}
 	}
 }
