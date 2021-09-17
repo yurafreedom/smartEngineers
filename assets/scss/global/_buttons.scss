@@ -181,6 +181,67 @@
   }
 }
 
+.btn--presentation {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+  color: #59616A;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: #cc6c56;
+    text-decoration: none;
+  }
+}
+
+.btn--more {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 215px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #59616A;
+  border-radius: 22px;
+  border: 2px solid #CC6C56;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: #fff;
+    background-color: #CC6C56 ;
+  }
+}
+
+.btn--projects {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 40px;
+  border-radius: 22px;
+  font-size: 12px;
+  color: #fff;
+  border: 2px solid #fff;
+  background: 0;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
 @media screen and (min-width: 1920px) {
   .btn--message {
     height: 40px;

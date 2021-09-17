@@ -128,9 +128,6 @@ $('[data-toggle="tab"]').click(function(e) {
 
 	$(dataTarget).addClass('active').siblings().removeClass('active');
 
-  reviewSwiper.update(true);
-  videoSwiper.update(true);
-  blogSwiper.update(true);
 });
 
 $(window).on('scroll load orientationchange', function() {
@@ -240,82 +237,6 @@ $(document).off('change focusout keydown keypress input', 'input, textarea').on(
   $(this).removeClass('not-empty').parent().parent().removeClass('not-empty');
  }
 });
-
-var reviewSwiper = new Swiper('#reviews_slider', {
-  slidesPerView: 'auto',
-  speed: 1000,
-  spaceBetween: 40,
-  loop: true,
-	navigation: {
-		nextEl: '.main-reviews-button-next',
-		prevEl: '.main-reviews-button-prev',
-	},
-  breakpoints: {
-      320: {
-      	spaceBetween: 20,
-      },
-      768: {
-        spaceBetween: 30,
-      },
-  },
-});
-
-var videoSwiper = new Swiper('#video_slider', {
-  slidesPerView: 'auto',
-  speed: 1000,
-  spaceBetween: 40,
-  navigation: {
-    nextEl: '.video-button-next',
-    prevEl: '.video-button-prev',
-  },
-  breakpoints: {
-      320: {
-        spaceBetween: 20,
-      },
-      768: {
-
-      },
-  },
-});
-
-var blogSwiper = new Swiper('#blog_slider', {
-  slidesPerView: 'auto',
-  speed: 1000,
-  spaceBetween: 40,
-  loop: true,
-  navigation: {
-    nextEl: '.blog-button-next',
-    prevEl: '.blog-button-prev',
-  },
-  breakpoints: {
-      320: {
-        spaceBetween: 20,
-      },
-      768: {
-
-      },
-  },
-});
-
-var partnerSwiper = new Swiper('#partners_slider', {
-  slidesPerView: 'auto',
-  speed: 1000,
-  spaceBetween: 30,
-  loop: true,
-  navigation: {
-    nextEl: '.partners-button-next',
-    prevEl: '.partners-button-prev',
-  },
-  breakpoints: {
-      320: {
-        spaceBetween: 20,
-      },
-      768: {
-        spaceBetween: 20,
-      },
-  },
-});
-
 
 $('select').niceSelect();
 
@@ -474,4 +395,19 @@ $(function() {
   }
   
   var accordion = new Accordion($('.page-header__menu-nav'), false);
+});
+
+$('.projects-block__control-link').on('click', function() {
+  $('.projects-block__card-block').removeClass('active');
+  $(this).parent().find('.projects-block__card-block').addClass('active');
+  $('.projects-block__map-transparent').addClass('active');
+});
+
+$('.projects-block__toggle-close').on('click', function() {
+  $(this).parent().parent().parent().removeClass('active');
+});
+
+$('.projects-block__map-transparent').on('click', function() {
+  $('.projects-block__card-block').removeClass('active');
+  $(this).removeClass('active');
 });
