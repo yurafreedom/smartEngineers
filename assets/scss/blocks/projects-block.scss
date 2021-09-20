@@ -34,7 +34,6 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		z-index: 1;
 	}
 	&__control-wrapper {
 		position: absolute;
@@ -82,26 +81,26 @@
 		}
 	}
 	#control-link-1 {
-		top: 290px;
-		left: 115px;
+		top: 41%;
+		left: 8.5%;
 	}
 	#control-link-2 {
-		top: 260px;
-		left: 600px;
+		top: 36%;
+		left: 46%;
 	}
 	#control-link-3 {
-		top: 375px;
-		left: 650px;
+		top: 55%;
+		left: 49%;
 	}
 	#control-link-4 {
-		top: 600px;
-		left: 600px;
+		top: 88%;
+		left: 44%;
 		bottom: 0;
 	}
 	#control-link-5 {
-		top: 140px;
+		top: 45%;
 		left: auto;
-		right: 210px;
+		right: 15%;
 	}
 	#control-link-5 &__control-link {
 		left: auto;
@@ -111,14 +110,12 @@
 		position: relative;
 		display: none;
 		width: 532px;
-		z-index: 100;
 		&.active {
 			display: block;
 		}
 	}
 	#control-link-1 &__card-block {
-		top: -50px;
-		right: -50px;
+
 	}
 	#control-link-2 &__card-block {
 
