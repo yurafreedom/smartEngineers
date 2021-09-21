@@ -238,7 +238,7 @@ $(document).off('change focusout keydown keypress input', 'input, textarea').on(
  }
 });
 
-$('select').niceSelect();
+// $('select').niceSelect();
 
 $(window).on('load scroll resize', function () {
   var t = $(this);

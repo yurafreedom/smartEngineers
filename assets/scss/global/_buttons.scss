@@ -66,7 +66,7 @@
   flex-shrink: 0;
   width: 145px;
   height: 35px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
   color: #fff;
   border-radius: 22px;
@@ -102,7 +102,7 @@
   flex-shrink: 0;
   width: 210px;
   height: 32px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   color: #fff;
   border-radius: 22px;
@@ -125,7 +125,7 @@
   align-items: center;
   border: 1px solid #484F57;
   border-radius: 30px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
   line-height: 1.2;
   color: #484F57;
@@ -148,7 +148,8 @@
   width: 180px;
   height: 30px;
   font-size: 14px;
-  color: #000;
+  font-weight: 700;
+  color: #415770;
   text-align: left;
   border: 1px solid #D7D7D7;
   background-color: #fff;
@@ -159,7 +160,7 @@
   border-bottom-right-radius: 0;
   transition: all 0.2s ease-in-out;
   &:hover, &:active, &:focus {
-    color: #000;
+    color: #415770;
   }
   &::before {
     content: '';

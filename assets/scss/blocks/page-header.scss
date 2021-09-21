@@ -389,7 +389,7 @@
 		align-items: center;
 		font-size: 18px;
 		font-weight: 400;
-		color: #000;
+		color: #415770;
 		transition: all 0.2s ease-in-out;
 		&:hover {
 			text-decoration: none;
@@ -432,7 +432,7 @@
 		display: block;
 		font-size: 14px;
 		font-weight: 300;
-		color: #000;
+		color: #415770;
 	}
 	&__menu-subnav li:last-child::after {
 		display: none;
@@ -458,22 +458,15 @@
 	&__nav ul li:not(:last-child) {
 		margin-right: 30px;
 	}
-	&__nav ul li.active a {
-		color: #1c2530;
-	}
-	&__nav ul li.active svg {
-		fill: #1c2530;
-	}
 	&__nav ul li a {
 		position: relative;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		font-family: 'Roboto', Arial, sans-serif;
 		font-size: 14px;
 		font-weight: 700;
 		line-height: 1.2;
-		color: #516A83;
+		color: rgb(49,65,102);
 		transition: all 0.2s ease-in-out;
 		&::after {
 			content: '';
@@ -493,10 +486,10 @@
 		}
 		&:hover {
 			text-decoration: none;
-			color: #1c2530;
+			color: rgb(49,65,102);
 		}
 		&:hover svg {
-			fill: #000;
+			fill: rgb(49,65,102);
 		}
 	}
 	&__nav li svg {
@@ -504,8 +497,22 @@
 		width: 10px;
 		height: 10px;
 		margin-left: 6px;
-		fill: #516A83;
+		fill: rgb(49,65,102);
 		transition: all 0.2s ease-in-out;
+	}
+	&__nav ul li.active a {
+		color: rgb(49,65,102);
+	}
+	&__nav ul li.active a::after {
+		opacity: 1;
+		pointer-events: all;
+	}
+	&__nav ul li.active .jq-dropdown-menu a::after {
+		opacity: 0;
+		pointer-events: none;
+	}
+	&__nav ul li.active svg {
+		fill: rgb(49,65,102);
 	}
 	#jq-dropdown-1.jq-dropdown .jq-dropdown-menu a:hover::after,
 	#jq-dropdown-2.jq-dropdown .jq-dropdown-menu a:hover::after,
@@ -524,10 +531,6 @@
 		}
 		&__nav {
 			display: none;
-		}
-		&__menu-nav ul li a {
-			position: relative;
-			font-size: 16px;
 		}
 		&__menu-nav ul li:last-child a::after {
 			display: none;
@@ -589,15 +592,12 @@
 		&__menu {
 			background-color: #fff;
 		}
-		&__menu-nav ul li a {
-			color: #000;
-		}
 		&__menu-nav ul li:not(:last-child) {
 			margin-bottom: 30px;
 		}
 		&__menu &__toggle span::before, 
 		&__menu &__toggle span::after {
-			background-color: #000;
+			background-color: #415770;
 		}
 		&__wrapper {
 			flex-direction: column;
@@ -678,7 +678,7 @@
 			padding-bottom: 4px;
 			font-size: 16px;
 			font-weight: 400;
-			color: #000;
+			color: #415770;
 			text-decoration: none;
 		}
 		&__menu-nav ul li a svg {
@@ -687,7 +687,7 @@
 			display: block;
 			width: 12px;
 			height: 12px;
-			fill: #000;
+			fill: #415770;
 			transition: all 0.3s ease-in-out;
 		}
 		&__menu-nav ul li a .glyphicon {
@@ -704,7 +704,7 @@
 			display: block;
 			font-size: 14px;
 			font-weight: 300;
-			color: #000;
+			color: #415770;
 		}
 		&__menu-subnav li:last-child::after {
 			display: none;
@@ -755,10 +755,10 @@
 			margin-right: 20px;
 		}
 		&__menu &__toggle span::before {
-			background-color: #000;
+			background-color: #415770;
 		}
 		&__menu &__toggle span::after {
-			background-color: #000;
+			background-color: #415770;
 		}
 		&__menu .btn--feedback {
 			width: 100%;
@@ -785,10 +785,10 @@
 			margin-right: 30px;
 		}
 		&__menu &__toggle span::before {
-			background-color: #000;
+			background-color: #415770;
 		}
 		&__menu &__toggle span::after {
-			background-color: #000;
+			background-color: #415770;
 		}
 	}
 }

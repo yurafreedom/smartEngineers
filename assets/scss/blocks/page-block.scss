@@ -22,9 +22,9 @@ body.scroll-top-active .page-block__navigation-block {
 		&:not(:last-child)::after {
 			content: '>';
 			position: absolute;
-			top: -1px;
+			top: 1px;
 			right: -15px;
-			font-size: 14px;
+			font-size: 12px;
 			font-weight: 300;
 			color: #fff;
 			transition: all 0.2s ease-in-out;
@@ -45,7 +45,8 @@ body.scroll-top-active .page-block__navigation-block {
 		margin-right: 21px;
 	}
 	&__breadcrumbs-block li a span {
-		padding-top: 1px;
+		position: relative;
+		top: 1px;
 	}
 	&__breadcrumbs-block li a svg {
 		display: block;
