@@ -396,14 +396,31 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1365px) {
 	.page-footer {
-		&__info-block:not(:last-child) {
-			margin-right: 50px;
+		&__section-block {
+			justify-content: space-between;
+			padding-right: 25px;
 		}
 		&__info-block {
-			max-width: 200px;
+			max-width: 250px;
+		}
+		&__info-block:not(:last-child) {
+			margin-right: 0;
 		}
 	}
 }
+
+@media screen and (min-width: 1408px) and (max-width: 1919px) {
+	.page-footer {
+		&__section-block {
+			justify-content: space-between;
+			padding-right: 40px;
+		}
+		&__info-block:not(:last-child) {
+			margin-right: 0;
+		}
+	}
+}
+
 
 @media screen and (min-width: 1440px) and (max-width: 1919px) {
 	.page-footer {
@@ -423,11 +440,37 @@
 	}
 }
 
+@media screen and (min-width: 1536px) and (max-width: 1919px) {
+	.page-footer {
+		&__section-block {
+			padding-right: 100px;
+		}
+	}
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
+	.page-footer {
+		&__section-block {
+			padding-right: 100px;
+		}
+	}
+}
+
+@media screen and (min-width: 1620px) and (max-width: 1919px) {
+	.page-footer {
+		&__section-block {
+			padding-right: 100px;
+		}
+	}
+}
+
+
+
 @media screen and (min-width: 1706px) and (max-width: 1919px) {
 	.page-footer {
 		&__section-block {
 			justify-content: space-between;
-			padding-right: 200px;
+			padding-right: 140px;
 		}
 		&__info-block {
 			max-width: 300px;
