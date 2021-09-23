@@ -545,3 +545,60 @@ document.addEventListener( 'DOMContentLoaded', function() {
     }
   }
 });
+
+$('.recommendation-block__slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,   
+    infinite: true,
+    arrows: true,
+    variableWidth: true,
+    prevArrow: '<button class="prev recommendation-block__arrow"></button>',
+    nextArrow: '<button class="next recommendation-block__arrow"></button>',
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+    ]
+});
+
+$('.achievements-block__slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,   
+    infinite: true,
+    arrows: true,
+    variableWidth: true,
+    prevArrow: '<button class="prev achievements-block__arrow"></button>',
+    nextArrow: '<button class="next achievements-block__arrow"></button>',
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+    ]
+});
+
+$('.achievements-block__controls-link-wrapper').on('click', function() {
+  $('.achievements-block__controls-link-wrapper').removeClass('active');
+  $(this).addClass('active');
+});

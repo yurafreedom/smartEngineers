@@ -14,8 +14,8 @@
 // @import "plugins/fancybox.min";
 @import "plugins/dropdown";
 // @import "plugins/swiper.min";
-// @import "plugins/slick";
-// @import "plugins/slick-theme";
+@import "plugins/slick";
+@import "plugins/slick-theme";
 // @import "plugins/datepicker.min";
 
 // BLOCKS STYLE
@@ -33,6 +33,9 @@
 @import "blocks/result-block";
 @import "blocks/clients-block";
 @import "blocks/carousel-block";
+@import "blocks/recommendation-block";
+@import "blocks/achievements-block";
+@import "blocks/news-block";
 // @import "blocks/theme";
 
 body {

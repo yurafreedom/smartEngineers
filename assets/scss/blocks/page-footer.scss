@@ -405,7 +405,7 @@
 	}
 }
 
-@media screen and (min-width: 1440px) and (max-width: 1920px) {
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
 	.page-footer {
 		&__info-block:not(:last-child) {
 			margin-right: 0;
@@ -415,6 +415,14 @@
 		}
 		&__info-block {
 			max-width: 270px;
+		}
+	}
+}
+
+@media screen and (min-width: 1706px) and (max-width: 1919px) {
+	.page-footer {
+		&__info-block {
+			max-width: 350px;
 		}
 	}
 }

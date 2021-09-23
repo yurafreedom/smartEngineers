@@ -1,0 +1,147 @@
+.recommendation-block {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #F2F2F2;
+	&__wrapper {
+		position: relative;
+		display: block;
+	}
+	&__heading {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 40px;
+	}
+	&__title {
+		position: relative;
+		display: block;
+		font-size: 29px;
+		font-weight: 700;
+		line-height: 1.2;
+	}
+	&__slider {
+		position: relative;
+		display: block;
+		max-width: 1253px;
+		margin: 0 auto;
+	}
+	&__slide {
+		position: relative;
+		display: block;
+		width: 364px !important;
+		margin-right: 54px;
+	}
+	&__wrap--outer {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	&__wrap--inner {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	&__slide-card-block {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: calc(100vh - 100px);
+		background-color: #fff;
+		padding-top: 22px;
+		padding-left: 45px;
+		padding-right: 44px;
+		padding-bottom: 34px;
+	}
+	&__slide-card-logo {
+		position: relative;
+		display: block;
+		width: 100px;
+		height: 47px;
+		margin-bottom: 34px;
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	&__slide-card-text {
+		display: block;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 1.2;
+		color: #59616A;
+	}
+	&__slide-card-inner {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		margin-top: auto;
+	}
+	&__slide-card-name {
+		display: block;
+		font-size: 10px;
+		font-weight: 700;
+		color: #59616A;
+		line-height: 1.2;
+	}
+	&__slide-card-position {
+		display: block;
+		font-size: 10px;
+		font-weight: 400;
+		color: #59616A;
+		line-height: 1.2;
+		margin-bottom: 20px;
+	}
+	&__slide-card-company {
+		display: block;
+		font-size: 10px;
+		font-weight: 400;
+		color: #59616A;
+		line-height: 1.2;
+		margin-bottom: 26px;
+	}
+	&__slide-card-link {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		span {
+			display: block;
+			font-size: 10px;
+			font-weight: 400;
+			line-height: 1.2;
+			color: #59616A;
+		}
+	}
+	button.prev, button.next {
+		outline: 0;
+	}
+	&__arrow {
+		background: 0;
+		border: 0;
+		position: absolute;
+		top: 50%;
+		margin-top: -8px;
+		left: 0;
+		width: 16px;
+		height: 16px;
+		transform: rotate(180deg);
+		background-image: url('../img/prev.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: 1;
+	}
+	button.prev.recommendation-block__arrow {
+		left: -46px;
+	}
+	button.next.recommendation-block__arrow {
+		transform: rotate(0deg);
+		left: auto;
+		right: 0;
+		background-image: url('../img/next.svg');
+	}
+}
