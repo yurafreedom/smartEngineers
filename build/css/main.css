@@ -404,7 +404,7 @@ template {
   .btn--language span.disabled {
     display: none; }
   .btn--language:hover {
-    color: #000; }
+    color: #314166; }
 
 .btn--feedback {
   margin: 0;
@@ -1130,7 +1130,7 @@ template {
     font-weight: 300;
     width: 100%;
     max-width: 165px;
-    font-size: 10px;
+    font-size: 11px;
     color: #415770;
     text-transform: uppercase; }
     .page-header__subtitle-block p {
@@ -1186,7 +1186,7 @@ template {
     transition: all 0.2s ease-in-out;
     margin-bottom: 10px; }
     .page-header__phone-link:hover {
-      color: #000;
+      color: #314166;
       text-decoration: none; }
   .page-header__search-inner-block {
     opacity: 0;
@@ -1423,7 +1423,7 @@ template {
         align-items: center;
     font-size: 18px;
     font-weight: 400;
-    color: #415770;
+    color: #516A83;
     transition: all 0.2s ease-in-out; }
     .page-header__menu-nav ul li a:hover {
       text-decoration: none;
@@ -1495,7 +1495,7 @@ template {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.2;
-    color: #415770;
+    color: #516A83;
     transition: all 0.2s ease-in-out; }
     .page-header__nav ul li a::after {
       content: '';
@@ -1521,10 +1521,12 @@ template {
     width: 10px;
     height: 10px;
     margin-left: 6px;
-    fill: #314166;
+    fill: #516A83;
     transition: all 0.2s ease-in-out; }
   .page-header__nav ul li.active a {
     color: #314166; }
+  .page-header__nav ul li.active a svg {
+    fill: #314166; }
   .page-header__nav ul li.active a::after {
     opacity: 1;
     pointer-events: all; }
@@ -2049,7 +2051,7 @@ option.hidden {
   width: 100%;
   border: 0;
   border-radius: 0;
-  max-width: 245px;
+  max-width: 260px;
   background-color: #fff;
   padding: 20px 0 20px 0;
   transition: all 0.3s ease-in-out; }
@@ -2057,7 +2059,7 @@ option.hidden {
 #jq-dropdown-1.jq-dropdown {
   top: 60px !important;
   left: auto !important;
-  margin-left: -90px; }
+  margin-left: -95px; }
 
 #jq-dropdown-2.jq-dropdown {
   top: 60px !important;
@@ -2067,7 +2069,7 @@ option.hidden {
 #jq-dropdown-3.jq-dropdown {
   top: 60px !important;
   left: auto !important;
-  right: 10px !important; }
+  right: 5px !important; }
 
 #jq-dropdown-1.jq-dropdown .jq-dropdown-menu a,
 #jq-dropdown-2.jq-dropdown .jq-dropdown-menu a,
@@ -2086,7 +2088,7 @@ option.hidden {
   #jq-dropdown-1.jq-dropdown .jq-dropdown-menu a:hover,
   #jq-dropdown-2.jq-dropdown .jq-dropdown-menu a:hover,
   #jq-dropdown-3.jq-dropdown .jq-dropdown-menu a:hover {
-    color: #000; }
+    color: #314166; }
 
 #jq-dropdown-1.jq-dropdown.jq-dropdown-tip:after,
 #jq-dropdown-2.jq-dropdown.jq-dropdown-tip:after,
@@ -2575,7 +2577,7 @@ option.hidden {
     font-weight: 300;
     width: 100%;
     max-width: 165px;
-    font-size: 10px;
+    font-size: 11px;
     color: #415770;
     text-transform: uppercase; }
     .page-header__subtitle-block p {
@@ -2631,7 +2633,7 @@ option.hidden {
     transition: all 0.2s ease-in-out;
     margin-bottom: 10px; }
     .page-header__phone-link:hover {
-      color: #000;
+      color: #314166;
       text-decoration: none; }
   .page-header__search-inner-block {
     opacity: 0;
@@ -2868,7 +2870,7 @@ option.hidden {
         align-items: center;
     font-size: 18px;
     font-weight: 400;
-    color: #415770;
+    color: #516A83;
     transition: all 0.2s ease-in-out; }
     .page-header__menu-nav ul li a:hover {
       text-decoration: none;
@@ -2940,7 +2942,7 @@ option.hidden {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.2;
-    color: #415770;
+    color: #516A83;
     transition: all 0.2s ease-in-out; }
     .page-header__nav ul li a::after {
       content: '';
@@ -2966,10 +2968,12 @@ option.hidden {
     width: 10px;
     height: 10px;
     margin-left: 6px;
-    fill: #314166;
+    fill: #516A83;
     transition: all 0.2s ease-in-out; }
   .page-header__nav ul li.active a {
     color: #314166; }
+  .page-header__nav ul li.active a svg {
+    fill: #314166; }
   .page-header__nav ul li.active a::after {
     opacity: 1;
     pointer-events: all; }

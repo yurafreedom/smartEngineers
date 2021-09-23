@@ -99,7 +99,7 @@
 		font-weight: 300;
 		width: 100%;
 		max-width: 165px;
-		font-size: 10px;
+		font-size: 11px;
 		color: #415770;
 		text-transform: uppercase;
 		p {
@@ -157,7 +157,7 @@
 		transition: all 0.2s ease-in-out;
 		margin-bottom: 10px;
 		&:hover {
-			color: #000;
+			color: #314166;
 			text-decoration: none;
 		}
 	}
@@ -389,7 +389,7 @@
 		align-items: center;
 		font-size: 18px;
 		font-weight: 400;
-		color: #415770;
+		color: #516A83;
 		transition: all 0.2s ease-in-out;
 		&:hover {
 			text-decoration: none;
@@ -466,7 +466,7 @@
 		font-size: 14px;
 		font-weight: 700;
 		line-height: 1.2;
-		color: #415770;
+		color: #516A83;
 		transition: all 0.2s ease-in-out;
 		&::after {
 			content: '';
@@ -497,11 +497,14 @@
 		width: 10px;
 		height: 10px;
 		margin-left: 6px;
-		fill: rgb(49,65,102);
+		fill: #516A83;
 		transition: all 0.2s ease-in-out;
 	}
 	&__nav ul li.active a {
 		color: rgb(49,65,102);
+	}
+	&__nav ul li.active a svg {
+		fill: rgb(49,65,102);
 	}
 	&__nav ul li.active a::after {
 		opacity: 1;
