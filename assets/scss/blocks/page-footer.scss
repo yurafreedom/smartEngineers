@@ -407,6 +407,10 @@
 
 @media screen and (min-width: 1440px) and (max-width: 1919px) {
 	.page-footer {
+		&__section-block {
+			justify-content: space-between;
+			padding-right: 50px;
+		}
 		&__info-block:not(:last-child) {
 			margin-right: 0;
 		}
@@ -421,8 +425,12 @@
 
 @media screen and (min-width: 1706px) and (max-width: 1919px) {
 	.page-footer {
+		&__section-block {
+			justify-content: space-between;
+			padding-right: 200px;
+		}
 		&__info-block {
-			max-width: 350px;
+			max-width: 300px;
 		}
 	}
 }
