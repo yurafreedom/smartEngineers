@@ -225,7 +225,7 @@ option.hidden {
   width: 100%;
   border: 0;
   border-radius: 0;
-  max-width: 260px;
+  width: 270px;
   background-color: #fff;
   padding: 20px 0 20px 0;
   transition: all 0.3s ease-in-out;
@@ -234,19 +234,19 @@ option.hidden {
 #jq-dropdown-1.jq-dropdown {
   top: 60px !important;
   left: auto !important;
-  margin-left: -95px;
+  margin-left: -105px;
 }
 
 #jq-dropdown-2.jq-dropdown {
   top: 60px !important;
   left: auto !important;
-  margin-left: -38px;
+  margin-left: -84px;
 }
 
 #jq-dropdown-3.jq-dropdown {
   top: 60px !important;
   left: auto !important;
-  right: 5px !important;
+  right: 0 !important;
 }
 
 #jq-dropdown-1.jq-dropdown .jq-dropdown-menu a,
