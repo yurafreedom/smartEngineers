@@ -214,3 +214,23 @@
 		background-image: url('../img/arrow-next-achievements.svg');
 	}
 }
+
+@include for-size(tablet) {
+	.achievements-block {
+		&__card-block {
+			height: calc(100vh - 440px);
+		}
+		&__controls-link-wrapper:not(:last-child) {
+			margin-right: 20px;
+		}
+		&__slider {
+			max-width: 100%;
+		}
+		&__slide {
+			width: 648px;
+		}
+		&__card-comment {
+			max-width: 400px;
+		}
+	}
+}

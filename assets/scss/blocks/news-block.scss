@@ -70,3 +70,20 @@
 		color: #516A83;
 	}
 }
+
+@include for-size(tablet) {
+	.news-block {
+		&__list {
+			flex-wrap: wrap;
+		}
+		&__card-block {
+			margin-bottom: 40px;
+		}
+		&__card-block:not(:last-child) {
+			margin-right: 0;
+		}
+		&__card-block:not(:nth-child(2n)) {
+			margin-right: 40px;
+		}
+	}
+}

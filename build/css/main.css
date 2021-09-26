@@ -460,7 +460,7 @@ template {
   width: 248px;
   height: 40px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
   border-radius: 22px;
   background-color: #CC6C56;
@@ -1626,8 +1626,11 @@ template {
       -ms-flex-order: 2;
           order: 2;
       margin-right: 20px; }
+    .page-header__search-input-wrapper {
+      position: relative;
+      width: 100%; }
     .page-header__input {
-      width: 190px;
+      width: 100%;
       height: 30px;
       padding: 0;
       padding-left: 15px;
@@ -1643,7 +1646,9 @@ template {
     .page-header__search-inner-block {
       top: -10px;
       right: -5px;
-      width: 300px;
+      width: calc(100vw - 15px);
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
       padding-left: 15px;
       -webkit-transform: translateX(0);
               transform: translateX(0); }
@@ -3073,8 +3078,11 @@ option.hidden {
       -ms-flex-order: 2;
           order: 2;
       margin-right: 20px; }
+    .page-header__search-input-wrapper {
+      position: relative;
+      width: 100%; }
     .page-header__input {
-      width: 190px;
+      width: 100%;
       height: 30px;
       padding: 0;
       padding-left: 15px;
@@ -3090,7 +3098,9 @@ option.hidden {
     .page-header__search-inner-block {
       top: -10px;
       right: -5px;
-      width: 300px;
+      width: calc(100vw - 15px);
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
       padding-left: 15px;
       -webkit-transform: translateX(0);
               transform: translateX(0); }
@@ -7156,6 +7166,18 @@ p.brand-description {
     right: 0;
     background-image: url("../img/arrow-next-achievements.svg"); }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+  .achievements-block__card-block {
+    height: calc(100vh - 440px); }
+  .achievements-block__controls-link-wrapper:not(:last-child) {
+    margin-right: 20px; }
+  .achievements-block__slider {
+    max-width: 100%; }
+  .achievements-block__slide {
+    width: 648px; }
+  .achievements-block__card-comment {
+    max-width: 400px; } }
+
 .news-block {
   position: relative;
   padding-top: 60px;
@@ -7224,6 +7246,17 @@ p.brand-description {
     font-weight: 400;
     line-height: 1.2;
     color: #516A83; }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .news-block__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .news-block__card-block {
+    margin-bottom: 40px; }
+  .news-block__card-block:not(:last-child) {
+    margin-right: 0; }
+  .news-block__card-block:not(:nth-child(2n)) {
+    margin-right: 40px; } }
 
 .media-block {
   background-color: #F2F2F2; }
