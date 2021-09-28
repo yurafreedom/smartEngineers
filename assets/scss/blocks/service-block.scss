@@ -263,10 +263,18 @@
 	}
 }
 
+@media screen and (min-width: 320px) and (max-width: 549px) {
+	.service-block {
+		&__category-card {
+			max-width: 100%;
+		}
+	}
+}
+
 @media screen and (min-width: 550px) and (max-width: 579px) {
 	.service-block {
 		&__category-card {
-			width: 45%;
+			width: 47%;
 			&:not(:nth-child(2n)) {
 				margin-right: 30px;
 			}
@@ -277,22 +285,22 @@
 @media screen and (min-width: 580px) and (max-width: 767px) {
 	.service-block {
 		&__category-card {
-			width: 100%;
-			max-width: 260px;
+			width: 48%;
+			max-width: 100%;
 			&:not(:nth-child(2n)) {
-				margin-right: 30px;
+				margin-right: 0;
 			}
 		}
 	}
 }
 
-@media screen and (min-width: 320px) and (max-width: 599px) {
-	.service-block {
-		&__category-card {
-			max-width: 100%;
-		}
-	}
-}
+// @media screen and (min-width: 320px) and (max-width: 599px) {
+// 	.service-block {
+// 		&__category-card {
+// 			max-width: 100%;
+// 		}
+// 	}
+// }
 
 @include for-size(tablet) {
 	.service-block {
