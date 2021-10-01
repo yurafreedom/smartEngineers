@@ -154,4 +154,50 @@
 		line-height: 1.2;
 		color: #fff;
 	}
+	&__carousel-logo-block {
+		width: 266px;
+		height: 61px;
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+@include for-size(mobile) {
+	.clients-block {
+		&__wrapper {
+			display: block;
+		}
+		&__card-inner-wrapper {
+			display: block;
+			margin-bottom: 40px;
+		}
+		&__content-block {
+			position: relative;
+			display: block;
+			margin-bottom: 40px;
+		}
+		&__carousel-block {
+			display: none;
+		}
+	}
+}
+
+@include for-size(tablet) {
+	.clients-block {
+		&__wrapper {
+			display: block;
+		}
+		&__content-block {
+			margin-bottom: 45px;
+		}
+		&__photo-block {
+			max-width: 450px;
+			height: 300px;
+			margin: 0 auto;
+			margin-bottom: 45px;
+		}
+	}
 }

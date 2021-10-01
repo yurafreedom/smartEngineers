@@ -146,3 +146,44 @@
 		background-image: url('../img/next.svg');
 	}
 }
+
+@include for-size(mobile) {
+	.recommendation-block {
+		&__heading {
+			display: block;
+		}
+		&__title {
+			margin-bottom: 25px;
+		}
+		&__slide-card-block {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		&__slider {
+			max-width: 260px;
+		}
+		&__slide {
+			width: 260px !important;
+		}
+		&__slide-card-text {
+			max-width: 240px;
+		}
+		button.prev.recommendation-block__arrow {
+			left: -25px;
+		}
+		button.next.recommendation-block__arrow {
+			right: -25px;
+		}
+	}
+}
+
+@include for-size(tablet) {
+	.recommendation-block {
+		&__slider {
+			max-width: 364px;
+		}
+		button.next.recommendation-block__arrow {
+			right: -40px;
+		}
+	}
+}

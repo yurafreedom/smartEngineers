@@ -232,3 +232,15 @@
 		pointer-events: all;
 	}
 }
+
+@include for-size(mobile) {
+	.projects-block {
+		&__heading-block {
+			display: block;
+		}
+		&__title {
+			font-size: 21px;
+			margin-bottom: 25px;
+		}
+	}
+}

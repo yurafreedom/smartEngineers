@@ -489,6 +489,30 @@ option.hidden {
   border-bottom: 20px solid transparent;
 }
 
+@include for-size(tablet) {
+  #jq-dropdown-5.jq-dropdown {
+    top: -75px !important;
+    left: auto !important;
+    right: -20px;
+    z-index: 100;
+  }
+  #jq-dropdown-8.jq-dropdown {
+    top: -220px !important;
+    left: auto !important;
+    right: -45px !important;
+  }
+  #jq-dropdown-8.jq-dropdown.jq-dropdown-tip.jq-dropdown-anchor-right:after {
+    top: auto;
+    right: 0;
+    bottom: 0;
+  }
+  #jq-dropdown-8.jq-dropdown.jq-dropdown-tip.jq-dropdown-anchor-right:before {
+    top: auto;
+    right: 0;
+    bottom: 0;
+  }
+}
+
 @media screen and (min-width: 1640px) {
   #jq-dropdown-3.jq-dropdown {
     right: 12px !important;

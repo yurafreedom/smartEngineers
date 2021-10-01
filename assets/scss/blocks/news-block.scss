@@ -71,6 +71,28 @@
 	}
 }
 
+@include for-size(mobile) {
+	.news-block {
+		&__heading {
+			display: block;
+		}
+		&__title {
+			margin-bottom: 30px;
+		}
+		&__list {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		&__card-block:not(:last-child) {
+			margin-right: 0;
+			margin-bottom: 45px;
+		}
+		&__card-block {
+			// max-width: 100%;
+		}
+	}
+}
+
 @include for-size(tablet) {
 	.news-block {
 		&__list {

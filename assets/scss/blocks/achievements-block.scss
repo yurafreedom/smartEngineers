@@ -215,6 +215,69 @@
 	}
 }
 
+@include for-size(mobile) {
+	.achievements-block {
+		&__heading {
+			display: block;
+		}
+		&__title {
+			margin-bottom: 30px;
+		}
+		&__slide {
+			width: 300px;
+			margin-right: 0;
+		}
+		&__card-block {
+			height: calc(100vh - 425px);
+		}
+		button.prev.achievements-block__arrow {
+			left: 0;
+		}
+		&__card-title {
+			text-align: center;
+			width: 100%;
+			max-width: 250px;
+			margin: 0 auto;
+			margin-bottom: 45px;
+		}
+		&__card-comment {
+			width: 100%;
+			text-align: center;
+			margin: 0 auto;
+			max-width: 250px;
+		}
+		&__controls-block {
+			display: block;
+		}
+		&__controls-link-wrapper:not(:last-child) {
+			margin-right: 0;
+		}
+		&__controls-link-wrapper {
+			max-width: 100%;
+		}
+		&__controls-link-wrapper::after {
+			top: 8px;
+			left: 0;
+			bottom: auto;
+		}
+		&__controls-link-wrapper:not(:last-child)::before {
+			top: 18px;
+			bottom: auto;
+			left: 0;
+			width: 1px;
+			height: 50px;
+		}
+		&__controls-link::after {
+			top: 18px;
+			bottom: auto;
+			left: 0;
+		}
+		&__slider {
+			max-width: 300px;
+		}
+	}
+}
+
 @include for-size(tablet) {
 	.achievements-block {
 		&__card-block {
@@ -224,13 +287,13 @@
 			margin-right: 20px;
 		}
 		&__slider {
-			max-width: 100%;
-		}
-		&__slide {
-			width: 648px;
+			max-width: 360px;
 		}
 		&__card-comment {
 			max-width: 400px;
+		}
+		&__controls-link-wrapper:not(:last-child)::before {
+			width: 140px;
 		}
 	}
 }

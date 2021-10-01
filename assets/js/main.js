@@ -611,3 +611,8 @@ $('.achievements-block__controls-link-wrapper').on('click', function() {
   $('.achievements-block__controls-link-wrapper').removeClass('active');
   $(this).addClass('active');
 });
+
+$('.cycle-block__video-inner-wrapper').on('click', function() {
+  $('.cycle-block__video-inner-wrapper').removeClass('disabled');
+  $(this).addClass('disabled');
+});
